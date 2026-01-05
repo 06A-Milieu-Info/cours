@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e}from"./chunks/framework.CmkU-fWO.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"travaux/tp1.md","filePath":"travaux/tp1.md"}'),r={name:"travaux/tp1.md"};function o(s,c,n,p,_,d){return e(),a("div")}const f=t(r,[["render",o]]);export{m as __pageData,f as default};
