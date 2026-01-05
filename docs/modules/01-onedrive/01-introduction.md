@@ -57,14 +57,6 @@ Voir le logigramme des cours et des préalables.
 - Informations : horaires des professeurs, liste des cours et horaire maître, logigramme, stages, ATE, Garneau Travail
 - Ressources : tutorat par les pairs, coffre à outils, ressources (CD, RP, API)
 
-## Lecteurs réseau et espaces personnels
-
-- Guides et ressources : `\\socrate\\Public\\Programme_Portables_OLD\\Tech_informatique\\Garneau`
-- Espace personnel : `\\socrate\\LesU\\VotreNumeroDA`
-- Dossiers : `\\socrate\\Documents` (lecture et écriture)
-
-<img src="./images/slide-8-img-3.jpg" alt="Diapo 8 — Lecteurs réseau" class="img-bordered w-xs" />
-
 ## Impression
 
 - Crédits d'impression : environ 5$ (≈ 40 pages) par session

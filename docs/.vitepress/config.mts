@@ -5,7 +5,7 @@ export default defineConfig({
 	base: "/cours/",
 	lang: "fr-CA",
 	cleanUrls: true,
-	title: "420-06A-FX — Milieu de l'informatique",
+	title: "420-06A-FX",
 	description:
 		"Milieu de l'informatique — ressources, grilles, calendrier et modules",
 	themeConfig: {
@@ -38,6 +38,13 @@ export default defineConfig({
 					{ text: "TP2", link: "/travaux/tp2" },
 					{ text: "TP3", link: "/travaux/tp3" },
 					{ text: "TP4", link: "/travaux/tp4" },
+				],
+			},
+
+			{
+				text: "Laboratoires",
+				items: [
+					{ text: "Lab 01 — Vocabulaire", link: "/labs/lab-01" },
 				],
 			},
 
@@ -147,6 +154,14 @@ export default defineConfig({
 					{ text: "TP2", link: "/travaux/tp2" },
 					{ text: "TP3", link: "/travaux/tp3" },
 					{ text: "TP4", link: "/travaux/tp4" },
+				],
+			},
+
+			{
+				text: "Laboratoires",
+				collapsed: true,
+				items: [
+					{ text: "Lab 01 — Vocabulaire", link: "/labs/lab-01" },
 				],
 			},
 			{
