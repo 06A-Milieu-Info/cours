@@ -1,0 +1,40 @@
+Politiques:
+	Utilisation du courriel de l'entreprise
+	Utilisation d'autres ressources (espace disque, réseau, etc.)
+	Horaires de travail
+		lundi au vendredi : 9h30 et 11h30 + 13h30 et 15h30
+
+https://www.journaldunet.com/ebusiness/magazine/1152336-comment-prevenir-les-risques-lies-aux-metiers-de-l-informatique/
+
+https://educaloi.qc.ca/capsules/teletravail-12-questions/#obligation-teletravail
+https://educaloi.qc.ca/capsules/les-droits-et-les-obligations-de-lemployeur-et-de-lemploye/
+https://educaloi.qc.ca/capsules/agir-avec-loyaute-envers-son-employeur/
+
+Se situer au regard des obligations légales et des règles
+d’éthique professionnelle :
+► Délits et actes criminels liés au métier de développeur
+d’applications.
+	Droits d'auteur
+	Non respect des normes et règles en termes de confidentialité (
+		http://legisquebec.gouv.qc.ca/fr/document/lc/p-39.1
+		Ne pas utiliser ses accès à des fins autres que pour son travail (Revenu Québec, Desjardins)
+		Courriels https://www.ic.gc.ca/eic/site/030.nsf/fra/00008.html
+		RGPD en Europe
+	Vol de temps
+	
+	Piratage (black hat et white hat)
+		Piratage interne/externe
+		Obtenir l'autorisation écrite des limites des tests d'intrusion
+► Licence de réutilisation de code.
+	https://tldrlegal.com/
+	Logiciel libre vs logiciel gratuit
+► Lois, codes d’éthique et politiques d’entreprise.
+	Éthique vs légal?
+	Exemple des politiques du Cégep Garneau (de la belle lecture en arrivant en poste...)
+	Déjà été question d'un ordre des informaticiens : https://www.opq.gouv.qc.ca/fileadmin/documents/Publications/Avis/avisinformaticien.pdf (1997)
+	http://gpp.oiq.qc.ca/loi_sur_les_ingenieurs.htm
+	Ingénieur : http://legisquebec.gouv.qc.ca/fr/document/rc/I-9,%20r.%206%20/
+	PMI : https://www.pmi.org/-/media/pmi/documents/public/pdf/ethics/pmi-code-of-ethics.pdf?sc_lang_temp=fr-FR
+https://www.opq.gouv.qc.ca/fileadmin/documents/Ordres_professionnels/54_professions_et_ordres_22_juillet_2015.pdf
+La version française du code de déontologie sera disponible sous peu (Reseau Action TI)
+	
