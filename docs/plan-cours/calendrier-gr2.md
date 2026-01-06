@@ -1,9 +1,21 @@
-# 📅 Calendrier du groupe 2
+# 📅 Calendrier du cours — Groupe 2 (mardi)
 
-> **Statut** : calendrier à venir — **à définir**.
-
-Indique la date de départ (ex. `ven. 23 janv. 2026`) et je générerai le calendrier sur 15 semaines avec la semaine de lecture placée après la semaine 7.
-
----
-
-_Pour l'instant, ceci est un stub. Dis‑moi la date de départ si tu veux que je le remplisse automatiquement._
+| Semaine | Date (mardi) | Visite/Conférence | Énoncés / Remises |
+|---:|:---|:---|:---|
+| 1 | 20 janv. |  | <Badge type="info" text="Énoncé" /> TP #1 |
+| 2 | 27 janv. | Visite API (en classe) | |
+| 3 | 3 févr. | Visite API (en classe) | <Badge type="warning" text="Remise" /> TP #1 |
+| 4 | 10 févr. | Visite API (en classe) | <Badge type="info" text="Énoncé" /> TP #2 |
+| 5 | 17 févr. | Visite API (en classe) | |
+| 6 | 24 févr. |  | <Badge type="danger" text="Examen" /> Examen Excel |
+| 7 | 3 mars | Conférence au [CDSP](https://www.cegepgarneau.ca/notre-cegep/cdsp/) (présence obligatoire) | <Badge type="warning" text="Remise" /> TP #2 |
+| — | 10 mars |  | <Badge type="info" text="Pause" /> **Semaine de lecture (pas de cours)** |
+| 8 | 17 mars |  | |
+| 9 | 24 mars |  | <Badge type="info" text="Énoncé" /> TP #3 |
+| 10 | 31 mars |  | |
+| — | **7 avr.** | **Pas de cours, car c'est une reprise de l'horaire du vendredi** | |
+| 11 | 14 avr. | Visite d'entreprise #1 | |
+| 12 | 21 avr. | Visite d'entreprise #2 | <Badge type="warning" text="Remise" /> TP #3 |
+| 13 | 28 avr. |  | <Badge type="info" text="Énoncé" /> TP #4 |
+| 14 | 5 mai |  | |
+| 15 | 12 mai |  | <Badge type="warning" text="Remise" /> TP #4 |

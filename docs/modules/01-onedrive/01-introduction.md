@@ -53,7 +53,7 @@ Voir le logigramme des cours et des préalables.
 
 ## Département d'informatique
 
-- Site : http://deptinfo.cegepgarneau.ca/
+- Site : https://techinfo.cegepgarneau.ca/
 - Informations : horaires des professeurs, liste des cours et horaire maître, logigramme, stages, ATE, Garneau Travail
 - Ressources : tutorat par les pairs, coffre à outils, ressources (CD, RP, API)
 

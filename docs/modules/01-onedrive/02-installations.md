@@ -17,7 +17,7 @@
   <li><label><input type="checkbox"><span class="check-text">Configurer la synchronisation OneDrive</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Créer votre horaire dans Teams</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Installer les applications mobiles recommandées (Outlook, Teams, OneDrive, Omnivox)</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">(Optionnel) Créer un Trello pour une gestion pratique de vos tâches</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Créer un Trello pour une gestion pratique de vos tâches</span></label></li>
 </ul>
 
 ## Créer votre session utilisateur sur l'ordinateur
@@ -99,3 +99,14 @@
 
 - Sur mobile, ouvrir **App Store** ou **Google Play**, rechercher **Outlook**, **Teams**, **OneDrive**, **Omnivox** et installer.
 - Se connecter et activer les notifications. (Optionnel : ajouter le widget Agenda sur l'écran d'accueil.)
+
+## Créer un compte Trello
+
+- Rendez-vous sur **https://trello.com/** et créez-vous un compte.
+- Trello est un système de gestion de tâches léger.
+- Il vous permet de créer des tableaux avec des listes personnalisables.
+- Mon astuce personnelle pour la session: créer une liste distincte pour chaque semaine **(Semaine 1, Semaine 2, Semaine 3, etc.)** et cocher les tâches lorsque terminées.
+- Bonus: plusieurs profs l'utilisent dans certains cours.
+
+<img src="./images/trello.png" alt="trello" class="img-bordered" />
+
