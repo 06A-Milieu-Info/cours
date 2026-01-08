@@ -2,6 +2,14 @@
 
 ## Bienvenue!
 
+- Qui je suis
+    - Prof, musique, papa, sports, chats, jeux vidéos
+<div class="flex">
+    <img src="./images/oli.jpeg" alt="oli" class="img-bordered w-[30%]" />
+    <img src="./images/boo.jpg" alt="boo" class="img-bordered w-[30%]" />
+    <img src="./images/whisky.jpg" alt="whisky" class="img-bordered w-[30%]" />
+</div>
+
 Nous sommes heureux de vous accueillir.
 
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
