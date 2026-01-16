@@ -18,30 +18,81 @@ hero:
     - theme: alt
       text: Bureau et disponibilités
       link: https://techinfo.cegepgarneau.ca/Professeurs/Horaire?id=20
-
-# NOUVEAUTÉS CETTE SEMAINE
-features:
-  - icon: 📄
-    title: Plan de cours
-    details: Lire le plan de cours au complet.
-    link: /plan-cours/plan-de-cours.md
-    linkText: Voir
-
-  - icon: 🚀
-    title: Installations et configurations obligatoires
-    details: Compléter toutes les installations.
-    link: /modules/01-onedrive/01-installations
-    linkText: Procédure
-
-  - icon: 📘
-    title: Introduction du cours
-    details: Consulter l'introduction du cours.
-    link: /modules/01-onedrive/01-introduction
-    linkText: Lire
-
-  - icon: 🧪
-    title: Exercice 1 (obligatoire)
-    details: Réaliser et remettre le premier exercice sur Léa.
-    link: /exercices/01-vocabulaire
-    linkText: Commencer
 ---
+<div class="rounded-xl border border-gray-200 bg-gray-50 px-4 py-2
+            text-sm font-medium text-gray-800
+            dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200">
+  Semaine 1 — du 19 janvier au 23 janvier
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Introduction du cours et plan de cours',
+        description: 'Présentation du fonctionnement du cours et des outils.',
+        time: '20 min',
+        links: [
+          { text: 'Introduction', href: '/modules/01-onedrive/01-introduction', variant: 'secondary' }, 
+          { text: 'Plan de cours', href: '/plan-cours/plan-de-cours', variant: 'secondary' }
+          ]
+      },
+      {
+        title: 'Installations — démonstration',
+        description: 'Vue d’ensemble des installations à faire. À compléter à la maison.',
+        time: '≈30 min',
+        links: [{ text: 'Voir la procédure', href: '/modules/01-onedrive/02-installations', variant: 'secondary' }]
+      },
+      {
+        title: 'Module 1 — Gestion des fichiers',
+        time: '50 min',
+        links: [{ text: 'Aller au module', href: '/modules/01-onedrive/03-gestion-fichiers', variant: 'secondary' }]
+      },
+      {
+        title: 'Énoncé TP1 (en bref)',
+        time: '20 min',
+        links: [{ text: 'Aller au tp1', href: '/travaux/tp1-collaboration', variant: 'secondary' }]
+      },
+      {
+        title: 'Formation des équipes (activité)',
+        time: '15 min',
+        links: [{ text: 'Instructions', href: '/modules/01-onedrive/00-brise-glace', variant: 'secondary' }]
+      }
+    ]"
+  />
+
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Terminer installations et configurations obligatoires',
+        badge: 'Obligatoire',
+        time: '15–30 min',
+        links: [{ text: 'Voir la procédure', href: '/modules/01-onedrive/02-installations', variant: 'primary' }]
+      },
+      {
+        title: 'Exercice 1 — Vocabulaire',
+        description: 'À remettre sur Léa avant le prochain cours.',
+        badge: 'Obligatoire',
+        time: '10–20 min',
+        links: [{ text: 'Commencer', href: '/labs/01-vocabulaire', variant: 'primary' }]
+      },
+      {
+        title: 'Former vos équipes (TP1)',
+        time: '5 min',
+        links: [
+          { text: 'Groupe 1', href: 'https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQAvf_qftUIQS7c759lhnDgbATnT41clfv4RMZQBOutJGFw?e=1P4kXk', variant: 'primary' },
+          { text: 'Groupe 2', href: 'https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQAKDA7_-ptNRaliAc1eEfwhAZSEAPsPbhlJ4tLNj0EVPac?e=dnexwh', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Commencer le TP1',
+        description: 'Vous pouvez déjà faire la partie individuelle de la Préparation (Word)',
+        time: '30 min',
+        links: [{ text: 'Aller au tp1', href: '/travaux/tp1-collaboration', variant: 'secondary' }]
+      }
+    ]"
+  />
+</div>

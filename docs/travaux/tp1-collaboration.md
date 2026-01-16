@@ -18,9 +18,9 @@ description: "Partage OneDrive, gestion de fichiers, coédition Word (révision/
 
 ## Mise en situation
 
-Vous faites partie d’une jeune équipe universitaire qui a mis en place un logiciel de détection de plagiat innovant destiné à améliorer l’intégrité académique dans les institutions d’enseignement supérieur. Récemment, vous avez décidé de lancer une nouvelle fonctionnalité qui détecte également **l’autoplagiat**.
+Votre équipe travaille sur un outil de détection de plagiat destiné au milieu universitaire. Une nouvelle fonctionnalité permettant d’identifier l’autoplagiat est en phase de test.
 
-Pour mettre en œuvre cette nouvelle fonctionnalité, vous devez tester votre système à grande échelle avec une grande variété de documents académiques. Votre première étape consiste à effectuer le travail préparatoire à votre projet.
+Vous devez maintenant préparer les données nécessaires afin de valider son fonctionnement à grande échelle.
 
 ---
 

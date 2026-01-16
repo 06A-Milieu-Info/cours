@@ -3,8 +3,7 @@ title: "Grille d’évaluation — TP1"
 description: "Grille critériée — Collaboration et coédition"
 ---
 
-# Grille d’évaluation — TP1  
-**Collaboration et coédition**
+# Grille d’évaluation — TP1 :  Collaboration et coédition
 
 ---
 
@@ -109,5 +108,3 @@ Tout retard dans la remise du travail entraîne une pénalité appliquée sur la
 ::: warning
 La pénalité pour retard s’applique **après** l’évaluation des critères et **s’additionne**, s’il y a lieu, à la pénalité pour non-respect des consignes.
 :::
-
----

@@ -1,1 +1,0 @@
-# Concepts de base d'un tableur

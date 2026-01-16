@@ -10,13 +10,6 @@
     <img src="./images/whisky.jpg" alt="whisky" class="img-bordered w-[30%]" />
 </div>
 
-Nous sommes heureux de vous accueillir.
-
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
-  <img src="./images/slide-2-img-3.png" alt="Diapo 2 — Bienvenue (1)" class="w-full img-bordered" />
-  <img src="./images/slide-2-img-5.png" alt="Diapo 2 — Bienvenue (3)" class="w-full img-bordered" />
-</div>
-
 ## Parcours et contenu du programme
 
 - 420.B0 Techniques de l'informatique — formation générale
