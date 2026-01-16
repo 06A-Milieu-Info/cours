@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.CmkU-fWO.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"modules/02-excel/index.md","filePath":"modules/02-excel/index.md"}'),o={name:"modules/02-excel/index.md"};function n(s,c,r,d,i,l){return a(),t("div")}const _=e(o,[["render",n]]);export{p as __pageData,_ as default};
