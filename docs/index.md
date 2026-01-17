@@ -19,9 +19,14 @@ hero:
       text: Bureau et disponibilités
       link: https://techinfo.cegepgarneau.ca/Professeurs/Horaire?id=20
 ---
-<div class="rounded-xl border border-gray-200 bg-gray-50 px-4 py-2
-            text-sm font-medium text-gray-800
-            dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200">
+<div
+  class="rounded-xl border px-4 py-2 text-sm font-medium"
+  style="
+    border-color: var(--vp-c-divider);
+    background: var(--vp-c-bg-soft);
+    color: var(--vp-c-text-1);
+  "
+>
   Semaine 1 — du 19 janvier au 23 janvier
 </div>
 <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
