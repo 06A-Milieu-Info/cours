@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.DX2MDgaT.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"modules/03-word/index.md","filePath":"modules/03-word/index.md"}'),r={name:"modules/03-word/index.md"};function a(d,n,s,c,i,m){return o(),t("div")}const l=e(r,[["render",a]]);export{_ as __pageData,l as default};

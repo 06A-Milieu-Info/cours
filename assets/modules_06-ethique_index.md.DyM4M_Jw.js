@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.DX2MDgaT.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"modules/06-ethique/index.md","filePath":"modules/06-ethique/index.md"}'),o={name:"modules/06-ethique/index.md"};function n(s,r,d,i,c,m){return a(),t("div")}const l=e(o,[["render",n]]);export{_ as __pageData,l as default};

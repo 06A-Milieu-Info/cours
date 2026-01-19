@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./chunks/framework.CmkU-fWO.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"travaux/tp4-ppt-ethique.md","filePath":"travaux/tp4-ppt-ethique.md"}'),p={name:"travaux/tp4-ppt-ethique.md"};function r(o,s,c,n,i,u){return a(),e("div")}const m=t(p,[["render",r]]);export{d as __pageData,m as default};
