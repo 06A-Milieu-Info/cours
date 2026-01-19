@@ -80,7 +80,7 @@ Astuce : pour garder un dossier « en bas », utilisez le principe de numérotat
 
 ### Partie 1 — Dossiers collaboratifs dans OneDrive (structure seulement)
 
-**Chaque membre doit télécharger les fichiers sources: <a href="./../public/tps/tp1-sources.zip" target="_blank" rel="noopener">Fichiers sources à télécharger (.zip)</a>
+**Chaque membre doit télécharger les fichiers sources: <a href="./../tps/tp1-sources.zip" target="_blank" rel="noopener">Fichiers sources à télécharger (.zip)</a>
 
 ::: warning
 Les fichiers fournis sont dans le désordre. C’est volontaire. C’est votre travail de les remettre en ordre en manipulant des accès différents. Voir Partie 2 du présent travail.
@@ -130,7 +130,7 @@ Règles de classement :
 
 ### Partie 3 — Coédition et révision dans Word
 
-Les responsable doit télécharger le document Word suivant: <a href="./../public/tps/tp1-coédition.docx" target="_blank" rel="noopener">Document à télécharger (.docx)</a>
+Les responsable doit télécharger le document Word suivant: <a href="./../tps/tp1-coédition.docx" target="_blank" rel="noopener">Document à télécharger (.docx)</a>
 
 ::: warning
 N’acceptez pas les insertions dans l’onglet «Accepter» les marques de révision. Ceci me permettra de voir qui a fait l’insertion de chaque texte.

@@ -3,7 +3,7 @@
 :::tip Une configuration initiale correcte évite beaucoup de perte de temps (mauvaises langues de clavier, notifications manquantes, fichiers non synchronisés). Les outils installés (navigateur, suite M365, OneDrive, Outlook, Teams) seront essentiels pour votre programme d'études.
 :::
 
-:::warning Vous devez effectuer les configurations suivantes avant de réaliser le **[laboratoire 1](../../labs/lab-01.md)** qui est à remettre d'ici le prochain cours.
+:::warning Vous devez effectuer les configurations suivantes avant de réaliser le **[laboratoire 1](../../labs/01-vocabulaire)** qui est à remettre d'ici le prochain cours.
 :::
 
 ## Installations requises
