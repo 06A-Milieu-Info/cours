@@ -22,32 +22,52 @@
 - Commentaires : Sélectionner le texte → **Nouveau commentaire** → utiliser `@` pour mentionner un collègue et lui assigner une action.
 - Historique : Fichier → Informations → **Historique des versions** (ou sur OneDrive web → Version History) pour consulter/restaurer.
 
-## Exercice (en classe)
+## Exercice — Rédaction d’un mini-tutoriel en équipe (en classe)
 
-**Exercice 2 — Rédaction d’astuces en équipe**
+### Objectif
 
-Objectif : produire, en équipe de 2, une note de cours structurée contenant des astuces pratiques vues pendant la séance, avec étapes et captures d'écran annotées.
+Produire, en équipe de 2, une note de cours sous forme de mini-tutoriel expliquant une manipulation courante, avec des étapes claires et des captures d’écran annotées.
 
-Étapes :
+### 1. Création du document
 
-1. **Créer le document**
-   - Dans votre dossier OneDrive dédié au cours (ex. `420-06A Milieu de l'info`), créez un nouveau document Word nommé `Outils pratiques et astuces - ÉquipeX`.
+Dans votre dossier OneDrive du cours (ex. `420-06A Milieu de l’info`) :
 
-2. **Partager avec votre partenaire**
-   - Partagez le document en définissant **Peut modifier** pour le courriel du partenaire.
-   - Vérifiez que vous pouvez co‑éditer en même temps (les curseurs / avatars apparaissent).
+- Créez un document Word nommé  
+  **Outils pratiques**
 
-3. **Titrez le document**
-   - Tapez en haut : **Outils pratiques et astuces** et ajoutez les noms des deux membres.
+### 2. Partage et collaboration
 
-4. **Sélection des sujets**
-   - À partir des sections pertinentes du cours d'aujourd'hui (gestion des fichiers / collaboration), chaque membre choisi **2 astuces** qu'il/elle ne connaissait pas ou qu'il/elle juge particulièrement utiles.
+- Partagez le document avec votre partenaire (**Peut modifier**).
+- Au besoin, lui envoyer le lien Onedrive vers votre document
 
-5. **Pour chaque astuce (à produire par responsable)**
-   - Donner un **titre** clair.
-   - Décrire **l'objectif** (1–2 phrases).
-   - Ajouter une **liste numérotée** décrivant les étapes (format pas à pas).
-   - Faire une **capture d'écran annotée** (Win+Shift+S ou Outil Capture) et l'insérer dans le document avec une courte légende.
+### 3. Titre du document
+
+En haut du document :
+
+- Titrer: **Outils pratiques**
+- Inscrire les noms des deux membres
+
+### 4. Choix du sujet
+
+Chaque partenaire choisit **un seul** des sujets suivants :
+
+#### 1 — Gestion des fichiers
+Comment changer l’extension d’un fichier  
+(ex. : `.txt` vers `.html`)
+
+#### 2 — Collaboration
+Comment partager un lien OneDrive vers un fichier ou un dossier  
+(avec les droits d’accès en **écriture**)
+
+### 5. Contenu du tutoriel
+
+Chaque étudiant crée le tutoriel choisi dans le même document partagé (faites des sauts de page au besoin).<br>
+Chaque tutoriel doit contenir :
+
+- Un titre clair
+- L’objectif (1–2 phrases)
+- Une liste numérotée des étapes
+- Au moins une capture d’écran annotée (flèches, encadrés)
 
 > [!NOTE]
 > Il n'y a pas de remise requise pour cet exercice.
