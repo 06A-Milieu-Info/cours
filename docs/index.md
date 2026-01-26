@@ -19,15 +19,64 @@ hero:
       text: Bureau et disponibilités
       link: https://techinfo.cegepgarneau.ca/Professeurs/Horaire?id=20
 ---
-<div
-  class="rounded-xl border px-4 py-2 text-sm font-medium"
-  style="
-    border-color: var(--vp-c-divider);
-    background: var(--vp-c-bg-soft);
-    color: var(--vp-c-text-1);
-  "
->
-  Semaine 1 — du 19 janvier au 23 janvier
+
+<section id="semaine-2">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="flex-grow border-t border-gray-400"></div>
+   <span class="flex-shrink mx-4 text-gray-400">Semaine 2 — du 26 janvier au 30 janvier</span>
+  <div class="flex-grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Exercice 1 — Vocabulaire',
+        description: 'À remettre sur Léa avant vendredi.',
+        badge: 'Obligatoire',
+        time: '10–20 min',
+        links: [{ text: 'Commencer', href: '/labs/01-vocabulaire', variant: 'primary' }]
+      },
+      {
+        title: 'Module 1 — Collaboration',
+        time: '20 min',
+        links: [{ text: 'Aller au module', href: '/modules/01-onedrive/04-collaboration', variant: 'secondary' }]
+      },
+      {
+        title: 'Travail pratique 1',
+        description: 'Quelques clarifications et restant de la période dédiée au travail pratique 1 en équipe.',
+        time: '90 min',
+        links: [{ text: 'Aller au tp1', href: '/travaux/tp1-collaboration', variant: 'secondary' }]
+      }
+    ]"
+  />
+
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Exercice 1 — Vocabulaire',
+        description: 'À remettre sur Léa avant vendredi.',
+        badge: 'Obligatoire',
+        time: '10–20 min',
+        links: [{ text: 'Commencer', href: '/labs/01-vocabulaire', variant: 'primary' }]
+      },
+      {
+        title: 'Avancer / compléter le TP1',
+        links: [{ text: 'Aller au tp1', href: '/travaux/tp1-collaboration', variant: 'secondary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+
+<section id="semaine-1">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="flex-grow border-t border-gray-400"></div>
+   <span class="flex-shrink mx-4 text-gray-400">Semaine 1 — du 19 janvier au 23 janvier</span>
+  <div class="flex-grow border-t border-gray-400"></div>
 </div>
 <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
   <WeeklyTodo
@@ -101,3 +150,4 @@ hero:
     ]"
   />
 </div>
+</section>
