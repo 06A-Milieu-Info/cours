@@ -25,19 +25,18 @@ Téléchargez le document Word à partir de :
 2. Ouvrez le document dans Microsoft Word. Remplissez les champs directement dans le fichier.
    - Répondez de manière concise et lisible.
    - Respectez la casse et la ponctuation.
-3. Sauvegardez le fichier au format `.docx` en conservant son contenu.
-4. Renommez le fichier avant la remise selon le format : `TP1_Prenom_Nom.docx` (ex. `lab-01_Olivia_Trepanier.docx`).
-5. Connectez‑vous à **Léa** → accédez à la section **Travaux du cours** → choisissez **Travail : Lab 01 — Vocabulaire** → joignez le fichier et soumettez.
+3. Renommez le fichier avant la remise selon le format : `TP1_Prenom_Nom.docx` (ex. `lab-01_Olivia_Trepanier.docx`).
+4. Connectez‑vous à **Léa** → accédez à la section **Travaux du cours** → choisissez **Travail : Lab 01 — Vocabulaire** → joignez le fichier et soumettez.
 
 ## Critères de réussite
-- Le fichier est remis dans Léa avant le début du cours de la semaine suivante.
+- Le fichier est remis dans Léa avant la date de remise prévue.
 - Toutes les questions du document sont complétées.
 - Le fichier est lisible et correctement nommé (`TP1_Prenom_Nom.docx`).
 
 ## Remise
 - Mode : Téléversement du fichier `.docx` via la section **Travaux** de Léa.
-- Échéance : avant le début du cours de la **semaine suivante** (la date sera précisée en classe).
+- Échéance : Le fichier est remis dans Léa avant la date de remise prévue.
 
-> Astuce : conservez une copie locale du fichier et vérifiez que l'ouverture après la sauvegarde montre vos réponses.
+> Vérifications : conservez une copie locale du fichier et vérifiez que l'ouverture après la sauvegarde montre vos réponses. Téléchargez aussi le fichier remis pour vérifier que c'est le bon.
 
 ---
