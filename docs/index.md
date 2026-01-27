@@ -20,6 +20,236 @@ hero:
       link: https://techinfo.cegepgarneau.ca/Professeurs/Horaire?id=20
 ---
 
+<!--
+<section id="semaine-7">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="flex-grow border-t border-gray-400"></div>
+   <span class="flex-shrink mx-4 text-gray-400">Semaine 7 — du 2 mars au 6 mars</span>
+  <div class="flex-grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Conférence au CDSP',
+        badge: 'Obligatoire',
+        description: 'Il y aura un exercice à remettre en lien avec le contenu de la conférence',
+        links: [{ text: 'Toutes les informations ici', href: '/labs/02-conference', variant: 'primary' }]
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Terminer le travail pratique 2',
+        description: 'À remettre au retour de la semaine de lecture.',
+        links: [{ text: 'Aller au tp2', href: '/travaux/tp2-excel-budget', variant: 'secondary' }]
+      },
+      {
+        title: 'Remettre l\'exercice en lien avec la conférence',
+        description: 'Il y aura un exercice à remettre en lien',
+        badge: 'Obligatoire',
+        links: [{ text: 'Toutes les informations ici', href: '/labs/02-conference', variant: 'primary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+-->
+
+<!--
+<section id="semaine-6">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="flex-grow border-t border-gray-400"></div>
+   <span class="flex-shrink mx-4 text-gray-400">Semaine 6 — du 23 février au 27 février</span>
+  <div class="flex-grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Examen',
+        description: 'OneDrive et Excel'
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Terminer le travail pratique 2',
+        description: 'À remettre au retour de la semaine de lecture.',
+        links: [{ text: 'Aller au tp2', href: '/travaux/tp2-excel-budget', variant: 'secondary' }]
+      },
+      {
+        title: 'La semaine prochaine : Conférence au CDSP',
+        badge: 'Présence obligatoire',
+        description: 'Il y aura un exercice à remettre en lien avec le contenu de la conférence',
+        links: [{ text: 'Toutes les informations ici', href: '/labs/02-conference', variant: 'primary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+-->
+
+<!--
+<section id="semaine-5">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="flex-grow border-t border-gray-400"></div>
+   <span class="flex-shrink mx-4 text-gray-400">Semaine 5 — du 16 février au 20 février</span>
+  <div class="flex-grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Excel — Théorie',
+        description: 'Terminer la théorie',
+        time: '45 min',
+        links: [{ text: 'Commencer', href: '/modules/02-excel', variant: 'primary' }]
+      },
+      {
+        title: 'Excel — Exercices pratiques',
+        description: 'Faire les exercices 10 et 11',
+        time: '90 min',
+        links: [{ text: 'Commencer', href: '/modules/02-excel#exercices-a-faire-dans-l-ordre', variant: 'primary' }]
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Excel — Exercices pratiques',
+        description: 'Faire les exercices 10 et 11',
+        time: '90 min',
+        links: [{ text: 'Commencer', href: '/modules/02-excel#exercices-a-faire-dans-l-ordre', variant: 'primary' }]
+      },
+      {
+        title: 'Avancer le travail pratique 2',
+        links: [{ text: 'Aller au tp2', href: '/travaux/tp2-excel-budget', variant: 'secondary' }]
+      },
+      {
+        title: 'Révision d\'examen',
+        links: [{ text: 'Aller à la révision', href: '/modules/02-excel/consolidation-examen', variant: 'secondary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+-->
+
+<!--
+<section id="semaine-4">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="flex-grow border-t border-gray-400"></div>
+   <span class="flex-shrink mx-4 text-gray-400">Semaine 4 — du 9 février au 13 février</span>
+  <div class="flex-grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Énoncé du travail pratique 2',
+        time: '20 min',
+        links: [{ text: 'Aller au tp2', href: '/travaux/tp2-excel-budget', variant: 'secondary' }]
+      },
+      {
+        title: 'Excel — Théorie',
+        description: 'Se rendre aux tableaux, filtres et tri',
+        time: '60 min',
+        links: [{ text: 'Commencer', href: '/modules/02-excel', variant: 'primary' }]
+      },
+      {
+        title: 'Excel — Exercices pratiques',
+        description: 'Faire les exercices 6 à 9',
+        time: '70 min',
+        links: [{ text: 'Commencer', href: '/modules/02-excel#exercices-a-faire-dans-l-ordre', variant: 'primary' }]
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Excel — Exercices pratiques',
+        description: 'Faire les exercices 6 à 9',
+        time: '90 min',
+        links: [{ text: 'Commencer', href: '/modules/02-excel#exercices-a-faire-dans-l-ordre', variant: 'primary' }]
+      },
+      {
+        title: 'Commencer le travail pratique 2',
+        links: [{ text: 'Aller au tp2', href: '/travaux/tp2-excel-budget', variant: 'secondary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+-->
+
+<!--
+<section id="semaine-3">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="flex-grow border-t border-gray-400"></div>
+   <span class="flex-shrink mx-4 text-gray-400">Semaine 3 — du 2 février au 6 février</span>
+  <div class="flex-grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Retour sur Exercice 1 — Vocabulaire',
+        description: 'À remettre sur Léa avant vendredi.',
+        badge: 'Obligatoire',
+        time: '10 min',
+        links: [{ text: 'Commencer', href: '/labs/01-vocabulaire', variant: 'primary' }]
+      },
+      {
+        title: 'Excel — Théorie',
+        description: 'Se rendre aux fonctions de dates',
+        time: '60 min',
+        links: [{ text: 'Commencer', href: '/modules/02-excel', variant: 'primary' }]
+      },
+      {
+        title: 'Excel — Exercices pratiques',
+        description: 'Faire les exercices 1 à 5',
+        time: '80 min',
+        links: [{ text: 'Commencer', href: '/modules/02-excel#exercices-a-faire-dans-l-ordre', variant: 'primary' }]
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Excel — Exercices pratiques',
+        description: 'Faire les exercices 1 à 5',
+        time: '90 min',
+        links: [{ text: 'Commencer', href: '/modules/02-excel#exercices-a-faire-dans-l-ordre', variant: 'primary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+-->
+
 <section id="semaine-2">
 <div class="relative flex py-5 items-center mt-10">
    <div class="flex-grow border-t border-gray-400"></div>
