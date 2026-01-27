@@ -281,7 +281,6 @@ hero:
       }
     ]"
   />
-
   <WeeklyTodo
     title="À préparer / compléter"
     subtitle="À compléter de votre côté."
@@ -345,7 +344,6 @@ hero:
       }
     ]"
   />
-
   <WeeklyTodo
     title="À préparer / compléter"
     subtitle="À compléter de votre côté."

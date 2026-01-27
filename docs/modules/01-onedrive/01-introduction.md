@@ -26,6 +26,16 @@ Voir le logigramme des cours et des préalables.
 
 ![Diapo 4 — Logigramme](./images/slide-4-img-2.png)
 
+## Aide à la planification
+
+Un outil vous est proposé pour vous aider à planifier vos sessions.
+
+<a href="./../../aide-planification.pdf" target="_blank">Télécharger le tableau d'aide à la planification (.pdf)</a>
+
+<!--
+<img src="./images/aide-planification.png" alt="Exemple d'outil d'aide à la planification" class="img-bordered" />
+-->
+
 ## Réseau sans-fil
 
 <div class="flex">
