@@ -32,9 +32,9 @@ Un outil vous est proposé pour vous aider à planifier vos sessions.
 
 <a href="./../../aide-planification.pdf" target="_blank">Télécharger le tableau d'aide à la planification (.pdf)</a>
 
-<!--
 <img src="./images/aide-planification.png" alt="Exemple d'outil d'aide à la planification" class="img-bordered" />
--->
+
+>Image à titre indicatif, veuillez toujours vous référer au plan de cours du professeur.
 
 ## Réseau sans-fil
 
