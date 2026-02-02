@@ -24,7 +24,7 @@ export default defineConfig({
 				text: "Modules",
 				items: [
 					{ text: "01 — OneDrive", link: "/modules/01-onedrive/" },
-					//{ text: "02 — Excel", link: "/modules/02-excel/" },
+					{ text: "02 — Excel", link: "/modules/02-excel/01-orientation" },
 					//{ text: "03 — Word", link: "/modules/03-word/" },
 					//{ text: "04 — Analyse", link: "/modules/04-analyse-info/" },
 					//{ text: "05 — PowerPoint", link: "/modules/05-powerpoint/" },
@@ -69,15 +69,25 @@ export default defineConfig({
 							{ text: "Collaboration", link: "/modules/01-onedrive/04-collaboration" },
 						],
 					},
-					/*
 					{
 						text: "Module 2 — Excel",
 						collapsed: true,
 						items: [
-							{ text: 'Accueil du module', link: '/modules/02-excel/' },
-							{ text: 'Consolidation et examen pratique', link: '/modules/02-excel/consolidation-examen' }
-						],
+							{ text: "Orientation", link: "/modules/02-excel/01-orientation" },
+							{ text: "Mise en forme", link: "/modules/02-excel/02-mise-en-forme" },
+							{ text: "Formules de base", link: "/modules/02-excel/03-formules-base" },
+							{ text: "Fonctions mathématiques", link: "/modules/02-excel/04-fonctions-math" },
+							{ text: "Fonctions de date", link: "/modules/02-excel/05-fonctions-date" },
+							{ text: "Fonctions conditionnelles", link: "/modules/02-excel/06-fonctions-logiques" },
+							{ text: "Mise en forme conditionnelle", link: "/modules/02-excel/07-mise-en-forme-cond" },
+							//{ text: "Validation et recherche", link: "/modules/02-excel/08-recherche" },
+							//{ text: "Tableaux, filtres et tris", link: "/modules/02-excel/09-tableaux-filtres-tris" },
+							//{ text: "Graphiques", link: "/modules/02-excel/10-graphiques" },
+							//{ text: "Tableaux croisés dynamiques", link: "/modules/02-excel/11-tableaux-croises" },
+							//{ text: "Mise en forme pour impression", link: "/modules/02-excel/12-mise-en-page-impression" },
+  						],
 					},
+					/*
 					{
 						text: "Module 3 — Word",
 						collapsed: true,

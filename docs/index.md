@@ -201,7 +201,6 @@ hero:
 </section>
 -->
 
-<!--
 <section id="semaine-3">
 <div class="relative flex py-5 items-center mt-10">
    <div class="flex-grow border-t border-gray-400"></div>
@@ -221,16 +220,9 @@ hero:
         links: [{ text: 'Commencer', href: '/labs/01-vocabulaire', variant: 'primary' }]
       },
       {
-        title: 'Excel — Théorie',
-        description: 'Se rendre aux fonctions de dates',
-        time: '60 min',
-        links: [{ text: 'Commencer', href: '/modules/02-excel', variant: 'primary' }]
-      },
-      {
-        title: 'Excel — Exercices pratiques',
-        description: 'Faire les exercices 1 à 5',
-        time: '80 min',
-        links: [{ text: 'Commencer', href: '/modules/02-excel#exercices-a-faire-dans-l-ordre', variant: 'primary' }]
+        title: 'Excel — Théorie et exercices',
+        description: 'Chaque section comporte un exercice à réaliser.',
+        links: [{ text: 'Commencer', href: '/modules/02-excel/01-orientation', variant: 'primary' }]
       }
     ]"
   />
@@ -239,16 +231,14 @@ hero:
     subtitle="À compléter de votre côté."
     :steps="[
       {
-        title: 'Excel — Exercices pratiques',
-        description: 'Faire les exercices 1 à 5',
-        time: '90 min',
-        links: [{ text: 'Commencer', href: '/modules/02-excel#exercices-a-faire-dans-l-ordre', variant: 'primary' }]
+        title: 'Excel — Terminer les exercices',
+        description: 'Terminer les exercices jusqu\'aux fonctions de date',
+        links: [{ text: 'Commencer', href: '/modules/02-excel/01-orientation', variant: 'primary' }]
       }
     ]"
   />
 </div>
 </section>
--->
 
 <section id="semaine-2">
 <div class="relative flex py-5 items-center mt-10">
