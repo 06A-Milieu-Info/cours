@@ -11,7 +11,7 @@ description: "Grille critériée — Collaboration et coédition"
 
 ---
 
-### Compréhension du plagiat et de l’autoplagiat
+### Compréhension du plagiat et de l’autoplagiat (15%)
 
 | Niveau | Description | Note |
 |------|-------------|------|
@@ -21,7 +21,7 @@ description: "Grille critériée — Collaboration et coédition"
 
 ---
 
-### Qualité du travail individuel et rigueur documentaire
+### Qualité du travail individuel et rigueur documentaire (20%)
 
 | Niveau | Description | Note |
 |------|-------------|------|
@@ -31,7 +31,7 @@ description: "Grille critériée — Collaboration et coédition"
 
 ---
 
-### Participation individuelle à la coédition
+### Participation individuelle à la coédition (15%)
 
 | Niveau | Description | Note |
 |------|-------------|------|
@@ -45,7 +45,7 @@ description: "Grille critériée — Collaboration et coédition"
 
 ---
 
-### Organisation des dossiers et gestion des fichiers (OneDrive)
+### Organisation des dossiers et gestion des fichiers (OneDrive) (20%)
 
 | Niveau | Description | Note |
 |------|-------------|------|
@@ -57,7 +57,7 @@ description: "Grille critériée — Collaboration et coédition"
 
 ---
 
-### Gestion des droits d’accès et collaboration (OneDrive)
+### Gestion des droits d’accès et collaboration (OneDrive) (15%)
 
 | Niveau | Description | Note |
 |------|-------------|------|
@@ -69,7 +69,7 @@ description: "Grille critériée — Collaboration et coédition"
 
 ---
 
-### Production du résumé commun et collaboration d’équipe
+### Production du résumé commun et collaboration d’équipe (15%)
 
 | Niveau | Description | Note |
 |------|-------------|------|
