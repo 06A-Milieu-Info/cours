@@ -35,7 +35,7 @@ export default defineConfig({
 				text: "Travaux",
 				items: [
 					{ text: "TP1", link: "/travaux/tp1-collaboration" },
-					//{ text: "TP2", link: "/travaux/tp2-excel-budget" },
+					{ text: "TP2", link: "/travaux/tp2-excel-budget" },
 					//{ text: "TP3", link: "/travaux/tp3-word-profession" },
 					//{ text: "TP4", link: "/travaux/tp4-ppt-ethique" },
 				],
@@ -61,7 +61,7 @@ export default defineConfig({
 				items: [
 					{
 						text: "Module 1 — OneDrive",
-						collapsed: false,
+						collapsed: true,
 						items: [
 							{ text: "Introduction", link: "/modules/01-onedrive/01-introduction" },
 							{ text: "Installations et configurations", link: "/modules/01-onedrive/02-installations" },
@@ -71,7 +71,7 @@ export default defineConfig({
 					},
 					{
 						text: "Module 2 — Excel",
-						collapsed: true,
+						collapsed: false,
 						items: [
 							{ text: "Orientation", link: "/modules/02-excel/01-orientation" },
 							{ text: "Mise en forme", link: "/modules/02-excel/02-mise-en-forme" },
@@ -79,12 +79,12 @@ export default defineConfig({
 							{ text: "Fonctions mathématiques", link: "/modules/02-excel/04-fonctions-math" },
 							{ text: "Fonctions de date", link: "/modules/02-excel/05-fonctions-date" },
 							{ text: "Fonctions conditionnelles", link: "/modules/02-excel/06-fonctions-logiques" },
-							{ text: "Mise en forme conditionnelle", link: "/modules/02-excel/07-mise-en-forme-cond" },
-							//{ text: "Validation et recherche", link: "/modules/02-excel/08-recherche" },
-							//{ text: "Tableaux, filtres et tris", link: "/modules/02-excel/09-tableaux-filtres-tris" },
-							//{ text: "Graphiques", link: "/modules/02-excel/10-graphiques" },
-							//{ text: "Tableaux croisés dynamiques", link: "/modules/02-excel/11-tableaux-croises" },
-							//{ text: "Mise en forme pour impression", link: "/modules/02-excel/12-mise-en-page-impression" },
+							{ text: "Validation et Mise en forme conditionnelle", link: "/modules/02-excel/07-mise-en-forme-cond" },
+							{ text: "RechercheV", link: "/modules/02-excel/08-recherche" },
+							{ text: "Tableaux, filtres et tris", link: "/modules/02-excel/09-tableaux-filtres-tris" },
+							{ text: "Graphiques", link: "/modules/02-excel/10-graphiques" },
+							{ text: "Tableaux croisés dynamiques", link: "/modules/02-excel/11-tableaux-croises" },
+							{ text: "Mise en forme pour impression", link: "/modules/02-excel/12-mise-en-page-impression" }
   						],
 					},
 					/*
@@ -120,8 +120,8 @@ export default defineConfig({
 				text: "Travaux pratiques",
 				collapsed: true,
 				items: [
-					{ text: "TP1", link: "/travaux/tp1-collaboration" },
-					//{ text: "TP2", link: "/travaux/tp2-excel-budget" },
+					{ text: "TP1 — Onedrive", link: "/travaux/tp1-collaboration" },
+					{ text: "TP2 — Excel", link: "/travaux/tp2-excel-budget" },
 					//{ text: "TP3", link: "/travaux/tp3-word-profession" },
 					//{ text: "TP4", link: "/travaux/tp4-ppt-ethique" },
 				],
@@ -139,7 +139,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 					{ text: "Grille — TP1", link: "/grilles/grille-tp1-collaboration" },
-					//{ text: "Grille — TP2", link: "/grilles/grille-tp2-excel-budget" },
+					{ text: "Grille — TP2", link: "/grilles/grille-tp2-excel-budget" },
 					//{ text: "Grille — TP3", link: "/grilles/grille-tp3-word-profession" },
 					//{ text: "Grille — TP4", link: "/grilles/grille-tp4-ppt-ethique" },
 					//{ text: "Grille — Examen 1", link: "/grilles/grille-examen1" },

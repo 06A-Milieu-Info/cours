@@ -1,123 +1,157 @@
 ---
-title: TP2 — Outil de budget personnel
+title: Travail pratique 2 — Outil de budget mensuel (Excel)
 aside: false
 ---
 
-# TP2 — Outil de budget personnel dans Excel
-
-## Objectif
-Créer un **classeur Excel de budget personnel** utilisant correctement les fonctionnalités vues dans le module.
-
----
-
-## Remise
-- un fichier Excel (.xlsx) contenant toutes les feuilles demandées ci-bas
-- **Date limite :** Indiquée dans Léa 
-- **Plateforme :** Léa — TP1
-- -10% par jour de retard, max trois jours 
+# Travail pratique 2 — Excel  
+**Cours :** 420-06A-FX — Milieu de l’informatique
+**Session :** Hiver 2026  
 
 ---
 
-## Format
-- Classeur Excel (.xlsx)
-- Calculs automatisés (formules / fonctions)
-- Aucune valeur calculée manuellement
-- Les feuilles doivent présenter une mise en forme soignée et cohérente.
-- Les informations importantes doivent être faciles à repérer.
-- Les couleurs, bordures et alignements doivent être utilisés de façon pertinente.
+## Objectif du travail pratique
+
+Dans ce travail pratique, vous devez concevoir un **outil de budget mensuel dans Excel** permettant de suivre :
+
+- les revenus
+- les dépenses fixes
+- les dépenses quotidiennes
+- le budget et le solde jour par jour
+
+L’objectif est de mettre en pratique les **formules Excel**, la **gestion des dates**, la **mise en forme conditionnelle** et la **création de graphiques**.
 
 ---
 
-## Structure obligatoire du classeur
+## Livrable attendu
 
-Le classeur doit contenir **les feuilles suivantes**, nommées clairement.
-
----
-
-## 1️⃣ Feuille « Paramètres »
-
-### Requis
-- Année analysée (pour information seulement)
-- Mois analysé (sera référencé ailleurs)
-- Catégories de dépenses (minimum 4)
-    - Exemples non imposés: Logement, Alimentation, Transport, Loisirs, Autres
-
-### Exigences
-- Les catégories doivent être utilisées ailleurs dans le classeur sous forme de liste déroulante.
-- Une validation des données sous forme de liste déroulante doit être utilisée.
-- Les paramètres doivent être référencés à l’aide de références absolues.
-- La mise en forme doit être claire et lisible.
+- Un **classeur Excel (.xlsx)** fonctionnel
+- Un **gabarit mensuel** réutilisable
+- Une feuille complétée pour **février 2026**
+- Un **graphique de dépenses**
 
 ---
 
-## 2️⃣ Feuille « Transactions »
+## Structure du classeur
 
-### Requis
-- Date  
-- Description  
-- Catégorie  
-- Type (Revenu / Dépense)  
-- Montant  
+- Le classeur est divisé en **feuilles mensuelles**
+- Chaque feuille représente **un mois**
+- Vous devez :
+  - créer **une feuille gabarit**
+  - copier cette feuille (une seule fois pour février)
+  - la renommer selon le mois voulu
 
-### Exigences
-- Les types de données doivent être appropriés pour chaque colonne.
-- La catégorie doit être sélectionnable à l’aide d’une liste déroulante.
-- Le type doit être limité aux valeurs *Revenu* ou *Dépense*.
-- La structure doit permettre l’ajout de nouvelles transactions sans briser les calculs.
+> Il n’est pas nécessaire de créer les 12 mois, mais le gabarit doit fonctionner pour **tous les mois de l’année**.
 
 ---
 
-## 3️⃣ Feuille « Calculs »
+## Gabarit fourni
 
-### Requis
-- Total des revenus du mois analysé
-- Total des dépenses du mois analysé
-- Solde du mois analysé (doit avoir une mise en forme conditionnelle)
-- Moyenne des dépenses du mois analysé
-
-### Exigences
-- Les calculs doivent être entièrement automatisés à l’aide de fonctions vues en classe.
-- Les références relatives et absolues doivent être utilisées de façon appropriée.
-- Une mise en forme conditionnelle doit permettre d’identifier visuellement une situation problématique (solde négatif).
+- La **mise en page est déjà fournie**
+- Vous devez uniquement **programmer les cellules jaunes**
+- Aucune valeur ne doit être calculée manuellement
 
 ---
 
-## 4️⃣ Feuille « Analyse »
+## Cellules à programmer
 
-### Requis
-- Tableau croisé dynamique
-- Analyse des dépenses
-- Regroupement par catégorie
-
-### Exigences
-- La feuille doit contenir **au moins un tableau croisé dynamique** créé à partir des données de la feuille *Transactions*.
-- Le tableau croisé dynamique doit présenter **les dépenses regroupées par catégorie**.
-- Le montant des dépenses doit être **additionné automatiquement** dans le tableau croisé dynamique.
-- Le tableau croisé dynamique doit permettre **le filtrage des données** (ex. : par type ou autre critère pertinent).
-- Les données sources doivent être structurées de façon à permettre une mise à jour correcte du tableau croisé dynamique.
+### Dates du mois
+- La cellule **B2** contient le **mois et l’année**
+- Les **dates de début et de fin du mois** doivent se calculer automatiquement
+- Le nombre de jours doit s’adapter au mois (28 à 31 jours)
 
 ---
 
-## 5️⃣ Feuille « Graphiques »
-
-### Requis
-- Graphique des dépenses par catégorie
-- Graphique comparant revenus et dépenses
-- Feuille prête à être imprimée
-
-### Exigences
-- Le type de graphique doit être pertinent par rapport aux données.
-- La source de données utilisée doit être correcte et à jour.
-- Les graphiques doivent comporter des titres et des légendes.
-- Les graphiques doivent être lisibles à l’écran et à l’impression.
-- L’orientation et les marges doivent être ajustées correctement.
-- Une zone d’impression doit être définie.
-- Les informations essentielles doivent être visibles sur papier.
+### Revenus
+- Le **revenu total** correspond à la somme de tous les revenus
+- Si aucun revenu n’est entré :
+  - la valeur affichée doit être **0,00 $**
+- Le total des revenus doit être **en gras**
 
 ---
 
-## Évaluation
-
-Le travail sera évalué à l’aide de la **grille d’évaluation fournie**, selon le niveau de maîtrise démontré pour chaque feuille.
+### Dépenses fixes
+- Les **dépenses fixes totales** correspondent à la somme du tableau des dépenses fixes
+- Si aucune dépense fixe n’est entrée :
+  - la valeur affichée doit être **0,00 $**
+- Le total des dépenses fixes doit être **en gras**
 
 ---
+
+### Budget mensuel et budget journalier
+- Le **budget mensuel** correspond à :
+  
+  > Revenus totaux − Dépenses fixes totales
+
+- Le **budget journalier** correspond à :
+  
+  > Budget mensuel ÷ Nombre de jours du mois
+
+---
+
+### Liste de dépenses par jour
+- La liste des jours doit s’adapter au mois sélectionné
+- Les cellules correspondant aux jours inexistants (ex. 31 pour avril) doivent rester **vides**
+
+---
+
+### Colonne Dépenses
+- La valeur par défaut doit être **0,00 $**
+- Toutes les cellules doivent être correctement formatées en devise
+
+---
+
+### Colonnes Budget et Solde
+
+- **Budget**
+  - Correspond au **budget journalier ajouté au solde de la veille**
+  - Les valeurs doivent être **en gras**
+
+- **Solde**
+  - Correspond à :
+    
+    > Budget journalier − Dépenses du jour
+
+- Mise en forme conditionnelle :
+  - **Vert** si la valeur est positive ou égale à zéro
+  - **Rouge** si la valeur est négative
+
+- Les **totaux** (dépenses, budget, solde) doivent apparaître à la fin du tableau
+
+> **Indice :**  
+> Si les totaux du budget et du solde ne sont pas égaux, il y a forcément une erreur dans les calculs.
+
+---
+
+## Graphique de dépenses
+
+1. Copiez votre feuille gabarit et nommez-la **Février 2025**
+2. Remplissez :
+   - des **revenus fictifs**
+   - des **dépenses fixes fictives**
+   - Assurez-vous d’avoir **plus de revenus que de dépenses fixes**
+3. Ajoutez des **dépenses hebdomadaires**
+   - Vous devez tomber **au moins une fois dans le rouge**
+4. Créez un **graphique à barres**
+   - Axe horizontal : dates
+   - Axe vertical : budget / solde
+   - Le graphique doit permettre de visualiser les périodes déficitaires
+
+---
+
+## Considérations importantes
+
+- Le chiffrier doit fonctionner pour **tous les mois de l’année**
+- Toutes les cellules monétaires doivent :
+  - être correctement **formatées**
+- Le fichier ne doit contenir :
+  - **aucune cellule en erreur Excel** (`#DIV/0!`, `#N/A`, etc.)
+- Les données saisies sont **fictives**
+
+---
+
+## Modalités de remise
+
+- **Plateforme :** LÉA
+- **Format :** fichier Excel (.xlsx)
+- **Date limite :** voir LÉA
+- **Pondération :** 20 %

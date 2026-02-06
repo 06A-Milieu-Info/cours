@@ -201,6 +201,43 @@ hero:
 </section>
 -->
 
+<section id="semaine-4">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="flex-grow border-t border-gray-400"></div>
+   <span class="flex-shrink mx-4 text-gray-400">Semaine 4 — du 9 février au 13 février</span>
+  <div class="flex-grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Excel — Théorie et exercices',
+        description: 'À partir des dates',
+        links: [{ text: 'Commencer', href: '/modules/02-excel/05-fonctions-date', variant: 'primary' }]
+      },
+      {
+        title: 'Travail pratique 2',
+        description: 'Présentation de l\'énoncé',
+        links: [{ text: 'Aller au TP2', href: '/travaux/tp2-excel-budget', variant: 'primary' }]
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Excel — Terminer les exercices',
+        description: 'Terminer les exercices vus en classe. Nous terminons Excel à la prochaine période.',
+        links: [{ text: 'Commencer', href: '/modules/02-excel/01-orientation', variant: 'primary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+
 <section id="semaine-3">
 <div class="relative flex py-5 items-center mt-10">
    <div class="flex-grow border-t border-gray-400"></div>
