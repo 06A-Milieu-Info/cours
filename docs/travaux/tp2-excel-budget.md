@@ -15,6 +15,12 @@ Vous devez d'abord télécharger [le classeur suivant](https://livecegepfxgqc-my
 
 ---
 
+## Vidéo explicative de l'énoncé (à regarder avant de commencer)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Apr6MkV2Hgo?si=S2YUc3v3GF4EVVyf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 ## Objectif
 
 Créer un **outil de budget mensuel** dans Excel qui permet de :
