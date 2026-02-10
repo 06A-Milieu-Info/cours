@@ -30,3 +30,16 @@ Additionne ou calcule une moyenne selon un critère.
 
 SOMME.SI(plage; critere; plage_somme)
 
+## SI ERREUR
+Permet de gérer les erreurs dans les formules, comme la division par zéro.
+
+```text
+SIERREUR(valeur; valeur_si_erreur)
+```
+
+### Exemple pour la moyenne
+Pour éviter l'erreur de division par zéro lors du calcul d'une moyenne :
+
+```text
+SIERREUR(MOYENNE(A1:A10); 0)
+```

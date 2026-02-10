@@ -1,123 +1,211 @@
 ---
-title: TP2 — Outil de budget personnel
-aside: false
+title: Travail pratique 2 — Outil de budget mensuel (Excel)
+aside: true
 ---
 
-# TP2 — Outil de budget personnel dans Excel
+# Travail pratique 2 — Excel  
+**Cours :** 420-06A-FX — Milieu de l’informatique  
+**Session :** Hiver 2026  
+
+---
+
+## Classeur de départ à télécharger
+
+Vous devez d'abord télécharger [le classeur suivant](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQBQBmOHho4tTKAaDPEHa_8wATTxkmhu0Gxy2zeFLsfxKT4?e=rdnQhS) sur votre poste.
+
+---
 
 ## Objectif
-Créer un **classeur Excel de budget personnel** utilisant correctement les fonctionnalités vues dans le module.
+
+Créer un **outil de budget mensuel** dans Excel qui permet de :
+
+- saisir des **revenus** et des **dépenses fixes**
+- calculer un **budget mensuel** et un **budget journalier**
+- saisir une **liste de dépenses (plusieurs par jour)** avec **catégorie**
+- produire des **statistiques**
+- produire 2 **tableaux croisés dynamiques (TCD)** et 1 **graphique**
 
 ---
 
-## Remise
-- un fichier Excel (.xlsx) contenant toutes les feuilles demandées ci-bas
-- **Date limite :** Indiquée dans Léa 
-- **Plateforme :** Léa — TP1
-- -10% par jour de retard, max trois jours 
+## À remettre
+
+Un **classeur Excel (.xlsx)** contenant **4 feuilles** :
+
+1. **Gabarit** (formules seulement, aucune donnée fictive)
+2. **Février 2026** (copie du gabarit + données fictives)
+3. **Dépenses par jour** (tableau croisé dynamique pour février)
+4. **Dépenses par catégorie** (tableau croisé dynamique et graphique circulaire pour février)
+
+> Nommez vos feuilles **exactement** comme demandé.
+
+<img src="./images/noms-des-feuilles.png" alt="Noms" class="img-bordered" />
 
 ---
 
-## Format
-- Classeur Excel (.xlsx)
-- Calculs automatisés (formules / fonctions)
-- Aucune valeur calculée manuellement
-- Les feuilles doivent présenter une mise en forme soignée et cohérente.
-- Les informations importantes doivent être faciles à repérer.
-- Les couleurs, bordures et alignements doivent être utilisés de façon pertinente.
+## Consignes générales
+
+- Les cellules jaunes du gabarit doivent contenir des **formules** (pas de calculs “à la main”).
+- Toutes les cellules d’argent doivent être formatées en **$** monétaire.
+- Le classeur ne doit contenir **aucune erreur Excel** (`#DIV/0!`, `#N/A`, etc.).
+- Les données de **février 2026** sont **fictives** (démonstration).
 
 ---
 
-## Structure obligatoire du classeur
+## Feuille 1 — Gabarit (formules seulement)
 
-Le classeur doit contenir **les feuilles suivantes**, nommées clairement.
+### 1) Revenus et dépenses fixes
+Dans la section **Revenus** et **Dépenses fixes** :
 
----
+- calculer le **total des revenus**
+- calculer le **total des dépenses fixes**
+- si aucun montant n’est saisi, afficher **0,00 $** dans les totaux
+- les totaux doivent être **en gras**
 
-## 1️⃣ Feuille « Paramètres »
-
-### Requis
-- Année analysée (pour information seulement)
-- Mois analysé (sera référencé ailleurs)
-- Catégories de dépenses (minimum 4)
-    - Exemples non imposés: Logement, Alimentation, Transport, Loisirs, Autres
-
-### Exigences
-- Les catégories doivent être utilisées ailleurs dans le classeur sous forme de liste déroulante.
-- Une validation des données sous forme de liste déroulante doit être utilisée.
-- Les paramètres doivent être référencés à l’aide de références absolues.
-- La mise en forme doit être claire et lisible.
+<img src="./images/tp2-revenus.png" alt="Revenus" class="img-bordered" />
+<img src="./images/tp2-dépenses.png" alt="Dépenses fixes" class="img-bordered" />
 
 ---
 
-## 2️⃣ Feuille « Transactions »
+### 2) Dates du mois
+- la cellule **B3** contient le mois (ex. `févr-26`), prendre le bon format (personnalisé)
+- les dates **Du** et **Au** se calculent automatiquement
 
-### Requis
-- Date  
-- Description  
-- Catégorie  
-- Type (Revenu / Dépense)  
-- Montant  
-
-### Exigences
-- Les types de données doivent être appropriés pour chaque colonne.
-- La catégorie doit être sélectionnable à l’aide d’une liste déroulante.
-- Le type doit être limité aux valeurs *Revenu* ou *Dépense*.
-- La structure doit permettre l’ajout de nouvelles transactions sans briser les calculs.
+<img src="./images/tp2-dates-mois.png" alt="Dates du mois" class="img-bordered" />
 
 ---
 
-## 3️⃣ Feuille « Calculs »
+### 3) Budget mensuel et budget journalier
+- **Budget mensuel** = Revenus totaux − Dépenses fixes totales
+- **Budget journalier** = Budget mensuel ÷ nombre de jours du mois
 
-### Requis
-- Total des revenus du mois analysé
-- Total des dépenses du mois analysé
-- Solde du mois analysé (doit avoir une mise en forme conditionnelle)
-- Moyenne des dépenses du mois analysé
+<img src="./images/tp2-mensuel.png" alt="Budget mensuel" class="img-bordered" />
 
-### Exigences
-- Les calculs doivent être entièrement automatisés à l’aide de fonctions vues en classe.
-- Les références relatives et absolues doivent être utilisées de façon appropriée.
-- Une mise en forme conditionnelle doit permettre d’identifier visuellement une situation problématique (solde négatif).
+>Budget mensuel
 
----
+<img src="./images/tp2-journalier.png" alt="Budget journalier" class="img-bordered" />
 
-## 4️⃣ Feuille « Analyse »
-
-### Requis
-- Tableau croisé dynamique
-- Analyse des dépenses
-- Regroupement par catégorie
-
-### Exigences
-- La feuille doit contenir **au moins un tableau croisé dynamique** créé à partir des données de la feuille *Transactions*.
-- Le tableau croisé dynamique doit présenter **les dépenses regroupées par catégorie**.
-- Le montant des dépenses doit être **additionné automatiquement** dans le tableau croisé dynamique.
-- Le tableau croisé dynamique doit permettre **le filtrage des données** (ex. : par type ou autre critère pertinent).
-- Les données sources doivent être structurées de façon à permettre une mise à jour correcte du tableau croisé dynamique.
+>Budget journalier
 
 ---
 
-## 5️⃣ Feuille « Graphiques »
+### 4) Catégories + budgets alloués
+Complétez table **Catégories des dépenses** avec :
 
-### Requis
-- Graphique des dépenses par catégorie
-- Graphique comparant revenus et dépenses
-- Feuille prête à être imprimée
+- **Budget alloué par mois** (montant monétaire)
+- Décidez des montants par vous-mêmes selon ce qui semble réalisable pour vous
 
-### Exigences
-- Le type de graphique doit être pertinent par rapport aux données.
-- La source de données utilisée doit être correcte et à jour.
-- Les graphiques doivent comporter des titres et des légendes.
-- Les graphiques doivent être lisibles à l’écran et à l’impression.
-- L’orientation et les marges doivent être ajustées correctement.
-- Une zone d’impression doit être définie.
-- Les informations essentielles doivent être visibles sur papier.
+<img src="./images/tp2-categories.png" alt="Catégories des dépenses" class="img-bordered" />
+
+> La colonne **Catégorie** de la liste de dépenses doit être une **liste déroulante** basée sur la table de catégories.
+
+### 5) Liste des dépenses du mois
+La table contient les colonnes suivantes (ne pas changer la structure)
+
+- **Date** (format date)
+- **Description**
+- **Catégorie** (liste déroulante à partir des catégories des dépenses)
+- **Dépense** (format monétaire)
+
+<img src="./images/tp2-liste-depenses.png" alt="Liste des dépenses du mois" class="img-bordered" />
+
+---
+
+### 6) Statistiques de dépenses du mois
+Complétez à l'aide de formules une zone de statistiques :
+
+- **Moyenne des dépenses**
+- **Plus grosse dépense**
+- **Plus petite dépense**
+- **Total des dépenses**
+
+> Ces statistiques sont calculées à partir du tableau de gauche **Liste des dépenses du mois**
+
+<img src="./images/tp2-stats.png" alt="Statistiques" class="img-bordered" />
+
+#### Mise en forme conditionnelle (statistiques)
+Appliquer une mise en forme conditionnelle sur **Total des dépenses** :
+
+- **Rouge** si le total des dépenses est **strictement supérieur** au **budget mensuel**
+- **Vert** si le total des dépenses est **inférieur ou égal** au **budget mensuel**
 
 ---
 
-## Évaluation
+## Feuille 2 — Février 2026 (copie du gabarit)
 
-Le travail sera évalué à l’aide de la **grille d’évaluation fournie**, selon le niveau de maîtrise démontré pour chaque feuille.
+1. Faites une **copie** de la feuille **Gabarit**
+2. Renommez-la **Février 2026**
+3. Ajoutez des **données fictives** :
+   - revenus
+   - dépenses fixes
+   - dépenses du mois (plusieurs par jour)
+   - utilisez plusieurs catégories
+
+> Vous devez avoir assez de données pour que les TCD et le graphique soient significatifs.
+>Assurez-vous de vider les données de le feuille **gabarit**, **conserver les formules**.
+
+<img src="./images/feuille-fev.png" alt="Feuille février" class="img-bordered" />
 
 ---
+
+## Feuille 3 — TCD — Dépenses par jour — Février 2026
+
+À partir des données de la liste de dépenses du mois:
+
+1. Insérez un tableau croisé dynamique dans une nouvelle feuille et nommez-la :  
+   **Dépenses par jour**
+2. Créez un **tableau croisé dynamique** qui affiche :
+   - **lignes :** Date
+   - **valeurs :** Somme de Dépense
+
+<img src="./images/tp2-tcd-par-jour.png" alt="TCD Dépenses par jour" class="img-bordered" />
+
+### Mise en forme conditionnelle (ligne rouge)
+Appliquez une mise en forme conditionnelle sur le TCD :
+
+- la **ligne complète** d’une date devient **rouge** si la **Somme de Dépense** de cette date **dépasse le budget journalier indiqué dans le mois de février (autre feuille)**
+- sinon, aucun surlignage rouge
+
+---
+
+## Feuille 4 — TCD — Dépenses par catégorie — Février 2026
+
+À partir des données de la liste de dépenses du mois:
+
+1. Insérez un tableau croisé dynamique dans une nouvelle feuille et nommez-la :  
+   **Dépenses par catégorie**
+2. Créez un **tableau croisé dynamique** qui affiche :
+   - **lignes :** Catégorie
+   - **valeurs :** Somme de Dépense
+
+<img src="./images/tp2-tcd-par-categorie.png" alt="TCD Dépenses par catégorie" class="img-bordered" />
+
+### Graphique (tarte)
+Dans la même feuille :
+
+- insérez un **graphique en pointes de tarte** basé sur le TCD
+- titre : **Dépenses par catégorie pour février**
+- les **valeurs** (montants) doivent être **affichées** sur le graphique
+- Vous **pouvez** personnaliser le graphique si cela vous tente
+
+<img src="./images/tp2-graphique-tarte.png" alt="Graphique tarte" class="img-bordered" />
+
+### Mise en page pour impression (portrait)
+- Positionnez le **TCD** et le **graphique** pour qu’ils entrent sur **une seule page**
+- Réglez l’impression en **mode portrait**
+
+---
+
+## Évaluation (rappel)
+
+- Le classeur doit contenir **4 feuilles** exactement comme demandé.
+- Les formules doivent fonctionner et être robustes.
+- Le fichier ne doit contenir aucune erreur Excel.
+
+---
+
+## Modalités de remise
+
+- **Plateforme :** LÉA  
+- **Format :** fichier Excel (.xlsx)  
+- **Date limite :** voir LÉA  
+- **Pondération :** 20 %

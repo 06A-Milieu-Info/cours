@@ -1,94 +1,178 @@
 ---
 title: "Grille d’évaluation — TP2"
-description: "Grille critériée — Excel"
+description: "Grille critériée — Outil de budget mensuel (Excel)"
+aside: true
 ---
 
-# Grille d’évaluation — TP2 : Outil de budget personnel
+# Grille d’évaluation — TP2  
+**Outil de budget mensuel (Excel)**
 
----
-
-## 1️⃣ Feuille « Paramètres »
-
-| Niveau | Description |
-|------|-------------|
-| **A** | Tous les paramètres requis sont présents. Les catégories sont utilisées ailleurs via une liste déroulante. Les références absolues sont correctement utilisées. La mise en forme est claire et cohérente. |
-| **B** | Paramètres présents et fonctionnels. Validation correcte, mais références ou mise en forme perfectibles. |
-| **C** | Paramètres incomplets ou validation partielle. Utilisation limitée ou incorrecte des références. |
-| **D** | Paramètres mal structurés ou peu fonctionnels. Validation absente ou incorrecte. |
-| **E** | Feuille absente ou inutilisable. |
+> **Échelle descriptive (A–E)**  
+> **A = 100 %** · **B = 80 %** · **C = 60 %** · **D = 40 %** · **E = 0 %**
 
 ---
 
-## 2️⃣ Feuille « Transactions »
+## 1) Gabarit — Formules et robustesse (20 %)
 
-| Niveau | Description |
-|------|-------------|
-| **A** | Toutes les colonnes requises sont présentes. Les types de données sont appropriés. Les listes déroulantes fonctionnent correctement. La structure permet l’ajout de transactions sans briser les calculs. |
-| **B** | Structure correcte avec quelques erreurs mineures (types ou validation). |
-| **C** | Structure présente mais incohérente ou validation peu fiable. |
-| **D** | Structure incorrecte ou données mal saisies. |
-| **E** | Feuille absente ou inutilisable. |
+**Tests fonctionnels**
+- Les cellules jaunes contiennent des **formules** (aucun calcul manuel)
+- Les totaux (revenus, dépenses fixes) affichent **0,00 $** lorsque vides
+- Aucune erreur Excel (`#DIV/0!`, `#N/A`, etc.)
+- Format monétaire appliqué aux cellules d’argent principales
 
----
-
-## 3️⃣ Feuille « Calculs »
-
-| Niveau | Description |
-|------|-------------|
-| **A** | Tous les calculs requis sont présents, exacts et automatisés. Les références sont bien utilisées. La mise en forme conditionnelle permet d’identifier clairement un solde négatif. |
-| **B** | Calculs fonctionnels, mais erreurs mineures ou mise en forme conditionnelle peu claire. |
-| **C** | Calculs partiels ou imprécis. Automatisation incomplète ou références mal utilisées. |
-| **D** | Calculs incorrects ou majoritairement manuels. |
-| **E** | Feuille absente ou non fonctionnelle. |
+| Niveau | Description | Note |
+|------|-------------|------|
+| **A** | Toutes les formules sont présentes, robustes et sans erreur. | 100 % |
+| **B** | Fonctionnement correct avec de légers détails mineurs. | 80 % |
+| **C** | Fonctionnement partiel, quelques erreurs ou fragilités. | 60 % |
+| **D** | Plusieurs erreurs ou formules manquantes. | 40 % |
+| **E** | Gabarit non fonctionnel ou calculs manuels. | 0 % |
 
 ---
 
-## 4️⃣ Feuille « Analyse »
+## 2) Dates du mois, budget mensuel et budget journalier (15 %)
 
-| Niveau | Description |
-|------|-------------|
-| **A** | Tableau croisé dynamique fonctionnel, basé sur *Transactions*, présentant correctement les dépenses par catégorie avec possibilité de filtrage. |
-| **B** | Tableau croisé dynamique fonctionnel, mais filtrage ou structure perfectible. |
-| **C** | Tableau croisé dynamique présent mais mal structuré ou peu pertinent. |
-| **D** | Tentative de tableau croisé dynamique non fonctionnelle. |
-| **E** | Feuille absente ou sans tableau croisé dynamique. |
+**Tests fonctionnels**
+- Les dates **Du** et **Au** s’ajustent automatiquement selon le mois affiché
+- Le **budget mensuel** est calculé par formule (revenus − dépenses fixes)
+- Le **budget journalier** est calculé par formule (budget mensuel ÷ nombre de jours du mois)
+- Test rapide : changer le mois → dates et budgets se recalculent
 
----
-
-## 5️⃣ Feuille « Graphiques » (incluant impression)
-
-| Niveau | Description |
-|------|-------------|
-| **A** | Les deux graphiques requis sont présents, pertinents et lisibles. Les sources de données sont correctes. La feuille est bien préparée pour l’impression (orientation, marges, zone d’impression). |
-| **B** | Graphiques fonctionnels, mais lisibilité, mise en forme ou impression perfectibles. |
-| **C** | Graphiques présents mais peu pertinents ou mal configurés. Impression incomplète. |
-| **D** | Graphiques incorrects ou non liés aux données. Impression mal configurée. |
-| **E** | Feuille absente ou sans graphique. |
+| Niveau | Description | Note |
+|------|-------------|------|
+| **A** | Dates et budgets automatisés et correctement recalculés. | 100 % |
+| **B** | Calculs automatisés avec légères imperfections. | 80 % |
+| **C** | Calculs corrects pour le mois affiché, adaptation limitée. | 60 % |
+| **D** | Calculs partiellement incorrects ou partiellement manuels. | 40 % |
+| **E** | Dates ou budgets incorrects ou absents. | 0 % |
 
 ---
 
-## Qualité globale et présentation
+## 3) Catégories et liste déroulante (validation de données) (10 %)
 
-| Niveau | Description |
-|------|-------------|
-| **A** | Classeur clair, cohérent et bien présenté. Les informations importantes sont faciles à repérer. La mise en forme soutient la compréhension. |
-| **B** | Classeur fonctionnel avec quelques incohérences visuelles. |
-| **C** | Classeur compréhensible, mais présentation négligée ou peu cohérente. |
-| **D** | Classeur confus ou difficile à lire. |
-| **E** | Travail non conforme ou incompréhensible. |
+**Tests fonctionnels**
+- La table des catégories est remplie (budgets mensuels)
+- La colonne **Catégorie** utilise une **liste déroulante**
+- Les choix correspondent aux catégories définies
+
+| Niveau | Description | Note |
+|------|-------------|------|
+| **A** | Liste déroulante complète et correctement liée aux catégories. | 100 % |
+| **B** | Liste fonctionnelle avec détails mineurs. | 80 % |
+| **C** | Liste partielle ou liaison imparfaite. | 60 % |
+| **D** | Liste peu fonctionnelle ou incohérente. | 40 % |
+| **E** | Absence de liste déroulante fonctionnelle. | 0 % |
+
+---
+
+## 4) Statistiques et mise en forme conditionnelle (15 %)
+
+**Tests fonctionnels**
+- Statistiques calculées à partir de la liste de dépenses :
+  - moyenne
+  - plus grosse dépense
+  - plus petite dépense
+  - total des dépenses
+- Mise en forme conditionnelle sur le **total des dépenses** :
+  - rouge si le total dépasse le budget mensuel
+  - vert si le total est inférieur ou égal au budget mensuel
+- Test rapide : modifier une dépense → la couleur s’ajuste
+
+| Niveau | Description | Note |
+|------|-------------|------|
+| **A** | Statistiques exactes et mise en forme conditionnelle fonctionnelle. | 100 % |
+| **B** | Statistiques exactes avec légers écarts de présentation. | 80 % |
+| **C** | Statistiques partiellement exactes ou mise en forme imparfaite. | 60 % |
+| **D** | Plusieurs statistiques incorrectes ou mise en forme absente. | 40 % |
+| **E** | Statistiques absentes ou non fonctionnelles. | 0 % |
+
+---
+
+## 5) Données saisies — Cohérence et variété (10 %)
+
+**Tests fonctionnels**
+- La feuille de travail est une **copie du gabarit**
+- Des données sont saisies (revenus, dépenses fixes, dépenses)
+- Plusieurs catégories sont utilisées
+- Il peut y avoir plusieurs dépenses pour une même date
+
+| Niveau | Description | Note |
+|------|-------------|------|
+| **A** | Données complètes, variées et cohérentes. | 100 % |
+| **B** | Données adéquates avec légère répétition ou manque de variété. | 80 % |
+| **C** | Données présentes mais peu exploitables. | 60 % |
+| **D** | Données incomplètes ou incohérentes. | 40 % |
+| **E** | Données absentes ou feuille incorrecte. | 0 % |
+
+---
+
+## 6) TCD — Dépenses par jour et mise en forme conditionnelle (15 %)
+
+**Tests fonctionnels**
+- Feuille dédiée correctement nommée
+- TCD :
+  - lignes : Date
+  - valeurs : Somme de Dépense
+- Mise en forme conditionnelle :
+  - la ligne devient rouge si la somme de dépenses d’une date dépasse le budget journalier
+- Test rapide : modifier une dépense → la ligne réagit
+
+| Niveau | Description | Note |
+|------|-------------|------|
+| **A** | TCD correct et mise en forme conditionnelle fonctionnelle. | 100 % |
+| **B** | TCD correct avec mise en forme partielle ou imparfaite. | 80 % |
+| **C** | TCD correct sans mise en forme fonctionnelle. | 60 % |
+| **D** | TCD partiellement correct ou mal structuré. | 40 % |
+| **E** | TCD absent ou non fonctionnel. | 0 % |
+
+---
+
+## 7) TCD — Dépenses par catégorie, graphique et impression (15 %)
+
+**Tests fonctionnels**
+- Feuille dédiée correctement nommée
+- TCD :
+  - lignes : Catégorie
+  - valeurs : Somme de Dépense
+- Graphique circulaire :
+  - titre explicite
+  - valeurs affichées
+- Mise en page :
+  - TCD et graphique tiennent sur une page, en mode portrait
+
+| Niveau | Description | Note |
+|------|-------------|------|
+| **A** | TCD et graphique complets, lisibles et prêts à l’impression. | 100 % |
+| **B** | TCD et graphique corrects avec ajustements mineurs. | 80 % |
+| **C** | TCD correct, graphique ou mise en page partielle. | 60 % |
+| **D** | TCD ou graphique incomplet ou peu lisible. | 40 % |
+| **E** | TCD et graphique absents ou non fonctionnels. | 0 % |
+
+---
+
+## Respect des consignes et modalités de remise (pénalité)
+
+**Tests fonctionnels**
+- Fichier au format **.xlsx**
+- **Exactement 4 feuilles**
+- Noms des feuilles conformes aux consignes
+
+| Situation observée | Pénalité appliquée |
+|-------------------|-------------------|
+| Toutes les consignes sont respectées | **0 %** |
+| Oublis mineurs ou incohérences | **−5 %** |
+| Non-respect important des consignes | **−10 %** |
 
 ---
 
 ## Retard dans la remise (pénalité)
 
-Tout retard dans la remise du travail entraîne une pénalité appliquée sur la **note finale du TP**, selon l’échelle suivante :
-
 | Retard observé | Pénalité appliquée |
 |---------------|-------------------|
-| 1 jour de retard (≤ 24 h) | **−10 %** |
-| 2 jours de retard (≤ 48 h) | **−20 %** |
-| 3 jours de retard (≤ 72 h) | **−30 %** |
-| Plus de 3 jours de retard | **Travail refusé** |
+| ≤ 24 h | **−10 %** |
+| ≤ 48 h | **−20 %** |
+| ≤ 72 h | **−30 %** |
+| Plus de 72 h | **Travail refusé** |
 
 ::: warning
 La pénalité pour retard s’applique **après** l’évaluation des critères et **s’additionne**, s’il y a lieu, à la pénalité pour non-respect des consignes.

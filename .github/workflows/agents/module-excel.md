@@ -84,7 +84,7 @@ Ne pas inclure de longs paragraphes.
 [04 – Fonctions mathématiques](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQD4Gs_NZuhGR7vc_dXnYvJfAUzmumXWheIxUXWgADO7W9Q?e=uJOLLH)  
 [05 – Fonctions de date](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQD5biM3pyoiTKh1B1NGwKH9Afx4LnP_KL1jcuqNDMieI58?e=V23UDD)  
 [06 – Fonctions conditionnelles et logiques](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQCbqUoTjHv9S5WiLRRdJj3eAQ_hZ0cx6EuYfT7svq7e268?e=BVqP3c)  
-[07 – Mise en forme conditionnelle](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQD2hGLn0VRtRqPzcce-dbgrAfT0j_iYCVzTVzHl8mvgX_s?e=u2PK9n)  
+[07 – Mise en forme conditionnelle et validation des données](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQD2hGLn0VRtRqPzcce-dbgrAfT0j_iYCVzTVzHl8mvgX_s?e=u2PK9n)  
 [08 – Recherche](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQAuQGQtIzGAQpyW-hccqJkUAUpVEuCiglNK9P1LmxkoQBE?e=0j7J5D)  
 [09 – Tableaux, filtres et tris](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQBebLKkJll2Q4TKamFEqUkPAcKrPaghhxrRiaXQM2UPkuc?e=b54kdp)  
 [10 – Graphiques](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQDEFk8w9hsjQq_4KU2HBDmSAWaii9EZpUfgVpk-VAt2-10?e=ccHQ8S)  
