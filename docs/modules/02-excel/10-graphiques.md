@@ -78,3 +78,5 @@ Assurez-vous que vos données sont bien organisées en colonnes avec des en-têt
 1. Cliquer sur la légende
 2. La déplacer en la faisant glisser
 3. Utiliser les options à droite pour la positionner (en haut, à droite, etc.)
+
+<img src="./images/10-options-legende-graphique.png" alt="Options de légende du graphique" class="img-bordered" />
