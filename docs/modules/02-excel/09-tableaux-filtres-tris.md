@@ -27,11 +27,13 @@ Transformer une plage en tableau Excel.
 - Bouton **Tableau** (icône avec un petit quadrillage).
 
 ### Procédure
-1. Sélectionner toute la plage de données (y compris la ligne d’en-tête).
+1. **Sélectionner toute la plage de données (y compris la ligne d’en-tête).**
 2. Aller dans **Insertion > Tableau**.
 3. Vérifier que la plage proposée est correcte.
 4. Cocher **Mon tableau comporte des en-têtes**.
 5. Valider avec **OK**.
+
+<img src="./images/09-insertion-tableau.png" alt="Insertion d'un tableau" class="img-bordered" />
 
 Résultat :
 - Les en-têtes ont des **petites flèches** de filtre.
@@ -53,6 +55,8 @@ On peut également étendre la formule qui est générée.
 4. Dans la dernière ligne qui apparaît, cliquer dans une cellule de la colonne à totaliser.
 5. Ouvrir la petite **liste déroulante** qui apparaît dans la cellule (triangle) et choisir **Somme**.
 
+<img src="./images/09-options-tableau.png" alt="Options de tableau avec ligne des totaux" class="img-bordered" />
+
 ## Filtres
 Les filtres servent à **afficher seulement certaines lignes**.
 
@@ -65,6 +69,8 @@ Les filtres servent à **afficher seulement certaines lignes**.
 2. Choisir **Filtres de texte** ou **Filtres de nombre** si nécessaire.
 3. Cocher/décocher les valeurs à afficher.
 4. Valider avec **OK**.
+
+<img src="./images/09-filtres-tableau.png" alt="Menu de filtres" class="img-bordered" />
 
 ## Tri
 Le tri sert à **classer les lignes** (du plus petit au plus grand, ou inversement).
@@ -81,3 +87,4 @@ Le tri sert à **classer les lignes** (du plus petit au plus grand, ou inverseme
 2. Ouvrir la **flèche de filtre** de cette colonne.
 3. Choisir **Trier du plus petit au plus grand** (ou l’option demandée dans l’exercice).
 
+<img src="./images/09-tri-tableau.png" alt="Options de tri" class="img-bordered" />
