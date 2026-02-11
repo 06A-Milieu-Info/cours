@@ -60,6 +60,13 @@ Petit tableau de contexte (valeur entrée dans F1) :
 | - | --------------------------------------------- |
 | 1 | <span class="bg-yellow-100">P002</span>        |
 
+> Quel résultat sera retourné par la fonction RechercheV ci-haut?
+
+<details>
+<summary>Réponse</summary>
+24.99$
+</details>
+
 ::: warning Explication
 La fonction cherche la valeur de `F1` (ici **P002**) dans la colonne **A**
 et retourne le prix correspondant dans la colonne **D** (4<sup>e</sup> colonne de la plage).
@@ -85,6 +92,13 @@ Petit tableau de contexte (valeur entrée dans F10) :
 |   | F                                             |
 | - | --------------------------------------------- |
 |10 | <span class="bg-yellow-100">1002</span>       |
+
+> Quel résultat sera retourné par la fonction RechercheV ci-haut?
+
+<details>
+<summary>Réponse</summary>
+Samira Lévesque
+</details>
 
 ::: warning Explication
 La fonction cherche la valeur de `F10` (ici **1002**) dans la colonne **A**
