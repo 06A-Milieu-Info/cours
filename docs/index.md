@@ -100,7 +100,7 @@ hero:
 </section>
 -->
 
-<!--
+
 <section id="semaine-5">
 <div class="relative flex py-5 items-center mt-10">
    <div class="flex-grow border-t border-gray-400"></div>
@@ -119,10 +119,14 @@ hero:
         links: [{ text: 'Commencer', href: '/modules/02-excel', variant: 'primary' }]
       },
       {
-        title: 'Excel — Exercices pratiques',
-        description: 'Faire les exercices 10 et 11',
-        time: '90 min',
-        links: [{ text: 'Commencer', href: '/modules/02-excel#exercices-a-faire-dans-l-ordre', variant: 'primary' }]
+        title: 'Révision d\'examen',
+        description: 'Savoir quoi réviser',
+        links: [{ text: 'Commencer', href: '/modules/02-excel/13-revision-examen', variant: 'primary' }]
+      },
+      {
+        title: 'Préparation pour la conférence au CDSP',
+        description: 'Prendre connaissance du lab-02',
+        links: [{ text: 'Laboratoire 2', href: '/labs/02-conference', variant: 'primary' }]
       }
     ]"
   />
@@ -130,76 +134,21 @@ hero:
     title="À préparer / compléter"
     subtitle="À compléter de votre côté."
     :steps="[
-      {
-        title: 'Excel — Exercices pratiques',
-        description: 'Faire les exercices 10 et 11',
-        time: '90 min',
-        links: [{ text: 'Commencer', href: '/modules/02-excel#exercices-a-faire-dans-l-ordre', variant: 'primary' }]
-      },
-      {
-        title: 'Avancer le travail pratique 2',
-        links: [{ text: 'Aller au tp2', href: '/travaux/tp2-excel-budget', variant: 'secondary' }]
-      },
       {
         title: 'Révision d\'examen',
-        links: [{ text: 'Aller à la révision', href: '/modules/02-excel/consolidation-examen', variant: 'secondary' }]
+        description: 'Savoir quoi réviser',
+        links: [{ text: 'Commencer', href: '/modules/02-excel/13-revision-examen', variant: 'primary' }]
+      },
+      {
+        title: 'Préparation pour la conférence au CDSP',
+        description: 'Prendre connaissance du lab-02',
+        links: [{ text: 'Laboratoire 2', href: '/labs/02-conference', variant: 'primary' }]
       }
     ]"
   />
 </div>
 </section>
--->
 
-<!--
-<section id="semaine-4">
-<div class="relative flex py-5 items-center mt-10">
-   <div class="flex-grow border-t border-gray-400"></div>
-   <span class="flex-shrink mx-4 text-gray-400">Semaine 4 — du 9 février au 13 février</span>
-  <div class="flex-grow border-t border-gray-400"></div>
-</div>
-<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
-  <WeeklyTodo
-    title="À faire cette semaine — En classe"
-    subtitle="Activités réalisées pendant la séance."
-    :steps="[
-      {
-        title: 'Énoncé du travail pratique 2',
-        time: '20 min',
-        links: [{ text: 'Aller au tp2', href: '/travaux/tp2-excel-budget', variant: 'secondary' }]
-      },
-      {
-        title: 'Excel — Théorie',
-        description: 'Se rendre aux tableaux, filtres et tri',
-        time: '60 min',
-        links: [{ text: 'Commencer', href: '/modules/02-excel', variant: 'primary' }]
-      },
-      {
-        title: 'Excel — Exercices pratiques',
-        description: 'Faire les exercices 6 à 9',
-        time: '70 min',
-        links: [{ text: 'Commencer', href: '/modules/02-excel#exercices-a-faire-dans-l-ordre', variant: 'primary' }]
-      }
-    ]"
-  />
-  <WeeklyTodo
-    title="À préparer / compléter"
-    subtitle="À compléter de votre côté."
-    :steps="[
-      {
-        title: 'Excel — Exercices pratiques',
-        description: 'Faire les exercices 6 à 9',
-        time: '90 min',
-        links: [{ text: 'Commencer', href: '/modules/02-excel#exercices-a-faire-dans-l-ordre', variant: 'primary' }]
-      },
-      {
-        title: 'Commencer le travail pratique 2',
-        links: [{ text: 'Aller au tp2', href: '/travaux/tp2-excel-budget', variant: 'secondary' }]
-      }
-    ]"
-  />
-</div>
-</section>
--->
 
 <section id="semaine-4">
 <div class="relative flex py-5 items-center mt-10">

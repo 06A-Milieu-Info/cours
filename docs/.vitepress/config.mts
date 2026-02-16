@@ -84,7 +84,8 @@ export default defineConfig({
 							{ text: "Tableaux, filtres et tris", link: "/modules/02-excel/09-tableaux-filtres-tris" },
 							{ text: "Graphiques", link: "/modules/02-excel/10-graphiques" },
 							{ text: "Tableaux croisés dynamiques", link: "/modules/02-excel/11-tableaux-croises" },
-							{ text: "Mise en forme pour impression", link: "/modules/02-excel/12-mise-en-page-impression" }
+							{ text: "Mise en forme pour impression", link: "/modules/02-excel/12-mise-en-page-impression" },
+							{ text: "Révision d'examen", link: "/modules/02-excel/13-revision-examen" }
   						],
 					},
 					/*
@@ -132,6 +133,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 					{ text: "Lab 01 — Vocabulaire", link: "/labs/01-vocabulaire" },
+					{ text: "Lab 02 — Conférence", link: "/labs/02-conference" },
 				],
 			},
 			{
