@@ -116,7 +116,7 @@ hero:
         title: 'Excel — Théorie',
         description: 'Terminer la théorie',
         time: '45 min',
-        links: [{ text: 'Commencer', href: '/modules/02-excel', variant: 'primary' }]
+        links: [{ text: 'Commencer', href: '/modules/02-excel/08-recherche', variant: 'primary' }]
       },
       {
         title: 'Révision d\'examen',
