@@ -61,7 +61,7 @@ hero:
 </section>
 -->
 
-<!--
+
 <section id="semaine-6">
 <div class="relative flex py-5 items-center mt-10">
    <div class="flex-grow border-t border-gray-400"></div>
@@ -75,7 +75,7 @@ hero:
     :steps="[
       {
         title: 'Examen',
-        description: 'OneDrive et Excel'
+        description: 'Excel'
       }
     ]"
   />
@@ -85,7 +85,6 @@ hero:
     :steps="[
       {
         title: 'Terminer le travail pratique 2',
-        description: 'À remettre au retour de la semaine de lecture.',
         links: [{ text: 'Aller au tp2', href: '/travaux/tp2-excel-budget', variant: 'secondary' }]
       },
       {
@@ -98,8 +97,6 @@ hero:
   />
 </div>
 </section>
--->
-
 
 <section id="semaine-5">
 <div class="relative flex py-5 items-center mt-10">
