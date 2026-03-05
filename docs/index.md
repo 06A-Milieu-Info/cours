@@ -20,7 +20,7 @@ hero:
       link: https://techinfo.cegepgarneau.ca/Professeurs/Horaire?id=20
 ---
 
-<!--
+
 <section id="semaine-7">
 <div class="relative flex py-5 items-center mt-10">
    <div class="flex-grow border-t border-gray-400"></div>
@@ -59,7 +59,6 @@ hero:
   />
 </div>
 </section>
--->
 
 
 <section id="semaine-6">
