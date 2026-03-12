@@ -7,8 +7,8 @@ aside: true
 # Grille d’évaluation — TP2  
 **Outil de budget mensuel (Excel)**
 
-> **Échelle descriptive (A–E)**  
-> **A = 100 %** · **B = 80 %** · **C = 60 %** · **D = 40 %** · **E = 0 %**
+> **Échelle descriptive**  
+> **Excellent = 100 %** · **Bien = 80 %** · **Correct = 60 %** · **Insuffisant = 40 %** · **Invalide = 0 %**
 
 ---
 
@@ -22,11 +22,11 @@ aside: true
 
 | Niveau | Description | Note |
 |------|-------------|------|
-| **A** | Toutes les formules sont présentes, robustes et sans erreur. | 100 % |
-| **B** | Fonctionnement correct avec de légers détails mineurs. | 80 % |
-| **C** | Fonctionnement partiel, quelques erreurs ou fragilités. | 60 % |
-| **D** | Plusieurs erreurs ou formules manquantes. | 40 % |
-| **E** | Gabarit non fonctionnel ou calculs manuels. | 0 % |
+| **Excellent** | Toutes les formules sont présentes, robustes et sans erreur. | 100 % |
+| **Bien** | Fonctionnement correct avec de légers détails mineurs. | 80 % |
+| **Correct** | Fonctionnement partiel, quelques erreurs ou fragilités. | 60 % |
+| **Insuffisant** | Plusieurs erreurs ou formules manquantes. | 40 % |
+| **Invalide** | Gabarit non fonctionnel ou calculs manuels. | 0 % |
 
 ---
 
@@ -40,11 +40,11 @@ aside: true
 
 | Niveau | Description | Note |
 |------|-------------|------|
-| **A** | Dates et budgets automatisés et correctement recalculés. | 100 % |
-| **B** | Calculs automatisés avec légères imperfections. | 80 % |
-| **C** | Calculs corrects pour le mois affiché, adaptation limitée. | 60 % |
-| **D** | Calculs partiellement incorrects ou partiellement manuels. | 40 % |
-| **E** | Dates ou budgets incorrects ou absents. | 0 % |
+| **Excellent** | Dates et budgets automatisés et correctement recalculés. | 100 % |
+| **Bien** | Calculs automatisés avec légères imperfections. | 80 % |
+| **Correct** | Calculs corrects pour le mois affiché, adaptation limitée. | 60 % |
+| **Insuffisant** | Calculs partiellement incorrects ou partiellement manuels. | 40 % |
+| **Invalide** | Dates ou budgets incorrects ou absents. | 0 % |
 
 ---
 
@@ -57,11 +57,11 @@ aside: true
 
 | Niveau | Description | Note |
 |------|-------------|------|
-| **A** | Liste déroulante complète et correctement liée aux catégories. | 100 % |
-| **B** | Liste fonctionnelle avec détails mineurs. | 80 % |
-| **C** | Liste partielle ou liaison imparfaite. | 60 % |
-| **D** | Liste peu fonctionnelle ou incohérente. | 40 % |
-| **E** | Absence de liste déroulante fonctionnelle. | 0 % |
+| **Excellent** | Liste déroulante complète et correctement liée aux catégories. | 100 % |
+| **Bien** | Liste fonctionnelle avec détails mineurs. | 80 % |
+| **Correct** | Liste partielle ou liaison imparfaite. | 60 % |
+| **Insuffisant** | Liste peu fonctionnelle ou incohérente. | 40 % |
+| **Invalide** | Absence de liste déroulante fonctionnelle. | 0 % |
 
 ---
 
@@ -80,11 +80,11 @@ aside: true
 
 | Niveau | Description | Note |
 |------|-------------|------|
-| **A** | Statistiques exactes et mise en forme conditionnelle fonctionnelle. | 100 % |
-| **B** | Statistiques exactes avec légers écarts de présentation. | 80 % |
-| **C** | Statistiques partiellement exactes ou mise en forme imparfaite. | 60 % |
-| **D** | Plusieurs statistiques incorrectes ou mise en forme absente. | 40 % |
-| **E** | Statistiques absentes ou non fonctionnelles. | 0 % |
+| **Excellent** | Statistiques exactes et mise en forme conditionnelle fonctionnelle. | 100 % |
+| **Bien** | Statistiques exactes avec légers écarts de présentation. | 80 % |
+| **Correct** | Statistiques partiellement exactes ou mise en forme imparfaite. | 60 % |
+| **Insuffisant** | Plusieurs statistiques incorrectes ou mise en forme absente. | 40 % |
+| **Invalide** | Statistiques absentes ou non fonctionnelles. | 0 % |
 
 ---
 
@@ -98,11 +98,11 @@ aside: true
 
 | Niveau | Description | Note |
 |------|-------------|------|
-| **A** | Données complètes, variées et cohérentes. | 100 % |
-| **B** | Données adéquates avec légère répétition ou manque de variété. | 80 % |
-| **C** | Données présentes mais peu exploitables. | 60 % |
-| **D** | Données incomplètes ou incohérentes. | 40 % |
-| **E** | Données absentes ou feuille incorrecte. | 0 % |
+| **Excellent** | Données complètes, variées et cohérentes. | 100 % |
+| **Bien** | Données adéquates avec légère répétition ou manque de variété. | 80 % |
+| **Correct** | Données présentes mais peu exploitables. | 60 % |
+| **Insuffisant** | Données incomplètes ou incohérentes. | 40 % |
+| **Invalide** | Données absentes ou feuille incorrecte. | 0 % |
 
 ---
 
@@ -119,11 +119,11 @@ aside: true
 
 | Niveau | Description | Note |
 |------|-------------|------|
-| **A** | TCD correct et mise en forme conditionnelle fonctionnelle. | 100 % |
-| **B** | TCD correct avec mise en forme partielle ou imparfaite. | 80 % |
-| **C** | TCD correct sans mise en forme fonctionnelle. | 60 % |
-| **D** | TCD partiellement correct ou mal structuré. | 40 % |
-| **E** | TCD absent ou non fonctionnel. | 0 % |
+| **Excellent** | TCD correct et mise en forme conditionnelle fonctionnelle. | 100 % |
+| **Bien** | TCD correct avec mise en forme partielle ou imparfaite. | 80 % |
+| **Correct** | TCD correct sans mise en forme fonctionnelle. | 60 % |
+| **Insuffisant** | TCD partiellement correct ou mal structuré. | 40 % |
+| **Invalide** | TCD absent ou non fonctionnel. | 0 % |
 
 ---
 
@@ -142,11 +142,11 @@ aside: true
 
 | Niveau | Description | Note |
 |------|-------------|------|
-| **A** | TCD et graphique complets, lisibles et prêts à l’impression. | 100 % |
-| **B** | TCD et graphique corrects avec ajustements mineurs. | 80 % |
-| **C** | TCD correct, graphique ou mise en page partielle. | 60 % |
-| **D** | TCD ou graphique incomplet ou peu lisible. | 40 % |
-| **E** | TCD et graphique absents ou non fonctionnels. | 0 % |
+| **Excellent** | TCD et graphique complets, lisibles et prêts à l’impression. | 100 % |
+| **Bien** | TCD et graphique corrects avec ajustements mineurs. | 80 % |
+| **Correct** | TCD correct, graphique ou mise en page partielle. | 60 % |
+| **Insuffisant** | TCD ou graphique incomplet ou peu lisible. | 40 % |
+| **Invalide** | TCD et graphique absents ou non fonctionnels. | 0 % |
 
 ---
 
