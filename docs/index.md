@@ -21,11 +21,48 @@ hero:
 ---
 
 
+<section id="semaine-8">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 8 — du 16 mars au 20 mars</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Retour sur l\'examen et le travail pratique 2',
+        description: 'Retour sur les résultats et les points à corriger ou retenir.'
+      },
+      {
+        title: 'Word — Exercices 1 à 3',
+        description: 'Début du module Word avec la structure, la mise en page et les tableaux/images.',
+        links: [{ text: 'Commencer', href: '/modules/03-word/01-structure-styles', variant: 'primary' }]
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Word — Terminer l\'exercice 3',
+        description: 'Compléter l\'exercice sur les tableaux, images et légendes.',
+        links: [{ text: 'Aller à l\'exercice 3', href: '/modules/03-word/03-tableaux-images', variant: 'primary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+
+
 <section id="semaine-7">
 <div class="relative flex py-5 items-center mt-10">
-   <div class="flex-grow border-t border-gray-400"></div>
-   <span class="flex-shrink mx-4 text-gray-400">Semaine 7 — du 2 mars au 6 mars</span>
-  <div class="flex-grow border-t border-gray-400"></div>
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 7 — du 2 mars au 6 mars</span>
+  <div class="grow border-t border-gray-400"></div>
 </div>
 <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
   <WeeklyTodo
@@ -63,9 +100,9 @@ hero:
 
 <section id="semaine-6">
 <div class="relative flex py-5 items-center mt-10">
-   <div class="flex-grow border-t border-gray-400"></div>
-   <span class="flex-shrink mx-4 text-gray-400">Semaine 6 — du 23 février au 27 février</span>
-  <div class="flex-grow border-t border-gray-400"></div>
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 6 — du 23 février au 27 février</span>
+  <div class="grow border-t border-gray-400"></div>
 </div>
 <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
   <WeeklyTodo
@@ -99,9 +136,9 @@ hero:
 
 <section id="semaine-5">
 <div class="relative flex py-5 items-center mt-10">
-   <div class="flex-grow border-t border-gray-400"></div>
-   <span class="flex-shrink mx-4 text-gray-400">Semaine 5 — du 16 février au 20 février</span>
-  <div class="flex-grow border-t border-gray-400"></div>
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 5 — du 16 février au 20 février</span>
+  <div class="grow border-t border-gray-400"></div>
 </div>
 <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
   <WeeklyTodo
@@ -148,9 +185,9 @@ hero:
 
 <section id="semaine-4">
 <div class="relative flex py-5 items-center mt-10">
-   <div class="flex-grow border-t border-gray-400"></div>
-   <span class="flex-shrink mx-4 text-gray-400">Semaine 4 — du 9 février au 13 février</span>
-  <div class="flex-grow border-t border-gray-400"></div>
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 4 — du 9 février au 13 février</span>
+  <div class="grow border-t border-gray-400"></div>
 </div>
 <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
   <WeeklyTodo
@@ -185,9 +222,9 @@ hero:
 
 <section id="semaine-3">
 <div class="relative flex py-5 items-center mt-10">
-   <div class="flex-grow border-t border-gray-400"></div>
-   <span class="flex-shrink mx-4 text-gray-400">Semaine 3 — du 2 février au 6 février</span>
-  <div class="flex-grow border-t border-gray-400"></div>
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 3 — du 2 février au 6 février</span>
+  <div class="grow border-t border-gray-400"></div>
 </div>
 <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
   <WeeklyTodo
@@ -224,9 +261,9 @@ hero:
 
 <section id="semaine-2">
 <div class="relative flex py-5 items-center mt-10">
-   <div class="flex-grow border-t border-gray-400"></div>
-   <span class="flex-shrink mx-4 text-gray-400">Semaine 2 — du 26 janvier au 30 janvier</span>
-  <div class="flex-grow border-t border-gray-400"></div>
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 2 — du 26 janvier au 30 janvier</span>
+  <div class="grow border-t border-gray-400"></div>
 </div>
 <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
   <WeeklyTodo
@@ -275,9 +312,9 @@ hero:
 
 <section id="semaine-1">
 <div class="relative flex py-5 items-center mt-10">
-   <div class="flex-grow border-t border-gray-400"></div>
-   <span class="flex-shrink mx-4 text-gray-400">Semaine 1 — du 19 janvier au 23 janvier</span>
-  <div class="flex-grow border-t border-gray-400"></div>
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 1 — du 19 janvier au 23 janvier</span>
+  <div class="grow border-t border-gray-400"></div>
 </div>
 <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
   <WeeklyTodo
