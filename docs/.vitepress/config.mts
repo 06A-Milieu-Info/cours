@@ -25,7 +25,7 @@ export default defineConfig({
 				items: [
 					{ text: "01 — OneDrive", link: "/modules/01-onedrive/" },
 					{ text: "02 — Excel", link: "/modules/02-excel/01-orientation" },
-					//{ text: "03 — Word", link: "/modules/03-word/" },
+					{ text: "03 — Word", link: "/modules/03-word/" },
 					//{ text: "04 — Analyse", link: "/modules/04-analyse-info/" },
 					//{ text: "05 — PowerPoint", link: "/modules/05-powerpoint/" },
 					//{ text: "06 — Éthique", link: "/modules/06-ethique/" },
@@ -71,7 +71,7 @@ export default defineConfig({
 					},
 					{
 						text: "Module 2 — Excel",
-						collapsed: false,
+						collapsed: true,
 						items: [
 							{ text: "Orientation", link: "/modules/02-excel/01-orientation" },
 							{ text: "Mise en forme", link: "/modules/02-excel/02-mise-en-forme" },
@@ -88,17 +88,25 @@ export default defineConfig({
 							{ text: "Révision d'examen", link: "/modules/02-excel/13-revision-examen" }
   						],
 					},
-					/*
 					{
 						text: "Module 3 — Word",
-						collapsed: true,
+						collapsed: false,
 						items: [
+							{ text: "Structure et styles", link: "/modules/03-word/01-structure-styles" },
+							{ text: "Mise en page et repères", link: "/modules/03-word/02-mise-en-page" },
+							{ text: "Tableaux, images et légendes", link: "/modules/03-word/03-tableaux-images" },
+							{ text: "Citations, bibliographie et export PDF", link: "/modules/03-word/04-finalisation" },
 						],
 					},
+					/*
 					{
 						text: "Module 4 — Analyse",
 						collapsed: true,
 						items: [
+							{ text: "Recherche", link: "/modules/04-analyse-info/01-recherche" },
+							{ text: "Entreprise", link: "/modules/04-analyse-info/02-entreprise" },
+							{ text: "Profession", link: "/modules/04-analyse-info/03-profession" },
+							{ text: "Étude de cas : CGI", link: "/modules/04-analyse-info/04-etude-cgi" },
 						],
 					},
 					{
@@ -112,18 +120,19 @@ export default defineConfig({
 						collapsed: true,
 						items: [
 						],
-					},
+					}
 					*/
 				],
+
 			},
-			
+
 			{
 				text: "Travaux pratiques",
 				collapsed: true,
 				items: [
 					{ text: "TP1 — Onedrive", link: "/travaux/tp1-collaboration" },
 					{ text: "TP2 — Excel", link: "/travaux/tp2-excel-budget" },
-					//{ text: "TP3", link: "/travaux/tp3-word-profession" },
+					//{ text: "TP3 — Word/Profession", link: "/travaux/tp3-word-profession" },
 					//{ text: "TP4", link: "/travaux/tp4-ppt-ethique" },
 				],
 			},
