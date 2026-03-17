@@ -38,7 +38,7 @@ Utiliser ce modèle pour rédiger un **rapport sur trois entreprises en informat
 
 ## Partie A — Création du modèle Word
 
-**Modèle à suivre : <a href="./../public/tps/Modèle (Partie A).pdf" target="_blank" rel="noopener">Modèle (Partie A).pdf</a>**
+**Modèle à suivre : <a href="./../tps/Modèle (Partie A).pdf" target="_blank" rel="noopener">Modèle (Partie A).pdf</a>**
 
 ### Création du document
 

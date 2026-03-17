@@ -9,7 +9,7 @@ description: Poser une structure solide avant de mettre en forme le document
 
 Téléchargez et ouvrez le document de départ fourni et modifiez le texte encadré en appliquant les bons styles de titres.
 
-**Exercice de départ à télécharger : <a href="../../public/module-03/Exercice_Word_Depart.docx" target="_blank" rel="noopener">Exercice_Word_Depart.docx</a>**
+**Exercice de départ à télécharger : <a href="../../module-03/Exercice_Word_Depart.docx" target="_blank" rel="noopener">Exercice_Word_Depart.docx</a>**
 
 À faire dans cette étape :
 
