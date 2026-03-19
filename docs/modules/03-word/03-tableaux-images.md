@@ -23,8 +23,8 @@ En dessous d'un titre de niveau 3:
 
 Images rapides à télécharger pour l'exercice :
 
-- [Image 1](./images/image-1.jpg) https://stocksnap.io/photo/lotus-flower-VC8IOCGVII
-- [Image 2](./images/image-2.jpg)
+- [Image 1](../../module-03/image-1.jpg) https://stocksnap.io/photo/lotus-flower-VC8IOCGVII
+- [Image 2](../../module-03/image-2.jpg)
 
 <figure>
 	<img src="./images/exercice3.png" alt="Exemple de tableau avec légende pour l'exercice 3" class="img-bordered" />
