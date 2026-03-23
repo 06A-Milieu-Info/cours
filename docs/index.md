@@ -40,7 +40,12 @@ hero:
       {
         title: 'Profession',
         description: 'Début de la partie sur la profession et le milieu de l\'informatique.',
-        links: [{ text: 'Aller au module', href: '/modules/04-analyse-info/03-profession', variant: 'primary' }]
+        links: [
+          { text: 'Recherche', href: '/modules/04-analyse-info/01-recherche', variant: 'primary' },
+          { text: 'Entreprise', href: '/modules/04-analyse-info/02-entreprise', variant: 'primary' },
+          { text: 'Profession', href: '/modules/04-analyse-info/03-profession', variant: 'primary' },
+          { text: 'Analyse de cas', href: '/modules/04-analyse-info/04-etude-cgi', variant: 'primary' }
+        ]
       },
       {
         title: 'Travail pratique 3',
