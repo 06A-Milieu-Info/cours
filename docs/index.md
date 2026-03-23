@@ -21,6 +21,49 @@ hero:
 ---
 
 
+<section id="semaine-9">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 9 — du 23 mars au 27 mars</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Word — Terminer le module',
+        description: 'Finaliser Word et revoir les derniers éléments du module.',
+        links: [{ text: 'Aller au module Word', href: '/modules/03-word/index', variant: 'primary' }]
+      },
+      {
+        title: 'Profession',
+        description: 'Début de la partie sur la profession et le milieu de l\'informatique.',
+        links: [{ text: 'Aller au module', href: '/modules/04-analyse-info/03-profession', variant: 'primary' }]
+      },
+      {
+        title: 'Travail pratique 3',
+        description: 'Présentation de l\'énoncé du TP3.',
+        links: [{ text: 'Aller au TP3', href: '/travaux/tp3-word-profession', variant: 'primary' }]
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Commencer le TP3',
+        description: 'Prendre connaissance de l\'énoncé et commencer le travail.',
+        links: [{ text: 'Aller au TP3', href: '/travaux/tp3-word-profession', variant: 'primary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+
+
 <section id="semaine-8">
 <div class="relative flex py-5 items-center mt-10">
    <div class="grow border-t border-gray-400"></div>
