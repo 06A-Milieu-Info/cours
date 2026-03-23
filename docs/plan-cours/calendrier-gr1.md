@@ -15,6 +15,6 @@
 | 10 | 2 avr. | Préparation des visites | |
 | 11 | 9 avr. | Visite d'entreprise #1 : GFT (9:00 à 12:00)<br>[gft.com/ca/fr](https://www.gft.com/ca/fr)<br>[Adresse](https://maps.app.goo.gl/6ZGW6k1SatQwavKS7) | |
 | 12 | 16 avr. | Visite d'entreprise #2 : Libéo (9:00 à 12:00)<br>[libeo.com](https://libeo.com/)<br>[Adresse](https://maps.app.goo.gl/WaUyUHLSMCnivDip9) | <Badge type="warning" text="Remise" /> TP #3 |
-| 13 | 23 avr. | PowerPoint | <Badge type="info" text="Énoncé" /> TP #4 |
-| 14 | 30 avr. | Éthique | |
+| 13 | 23 avr. | Conférence en classe : [Ministère de la Cybersécurité et du Numérique](https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique) (vers 9 h)<br>PowerPoint | <Badge type="info" text="Énoncé" /> TP #4 |
+| 14 | 30 avr. | Éthique<br>PowerPoint | |
 | 15 | 7 mai | Présentations en classe | <Badge type="warning" text="Remise" /> TP #4 |

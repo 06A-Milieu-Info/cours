@@ -28,17 +28,16 @@ Créer un **modèle Word (.dotx)** respectant les normes de présentation demand
 
 ### Partie B
 
-Utiliser ce modèle pour rédiger un **rapport sur trois entreprises en informatique** :
+Utiliser ce modèle pour rédiger un **rapport sur trois organisations du milieu informatique et numérique** :
 
-- entreprise visitée #1
-- entreprise visitée #2
+- **deux sujets** à choisir parmi **les entreprises visitées pour votre groupe** et le [Ministère de la Cybersécurité et du Numérique (qui viendra visiter les deux groupes en classe)](https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique)
 - une entreprise de votre choix
 
 ---
 
 ## Partie A — Création du modèle Word
 
-**Modèle à suivre : <a href="./../public/tps/Modèle (Partie A).pdf" target="_blank" rel="noopener">Modèle (Partie A).pdf</a>**
+**Modèle à suivre : <a href="./../tps/Modèle (Partie A).pdf" target="_blank" rel="noopener">Modèle (Partie A).pdf</a>**
 
 ### Création du document
 
@@ -151,7 +150,7 @@ Référence visuelle du tableau : ![Exemple du tableau du modèle](images/tablea
 - avec un **style différent du style par défaut**
 - avec une **légende significative**
 
-Ce tableau pourra être utilisé dans la partie B pour présenter les entreprises.
+Ce tableau pourra être utilisé dans la partie B pour présenter les organisations.
 
 ---
 
@@ -196,21 +195,25 @@ Le document Word de la partie A doit être **exporté en PDF** avant la remise.
 
 ---
 
-## Partie B — Rapport sur des entreprises
+## Partie B — Rapport sur des organisations
 
 Dans cette partie, vous devez **utiliser le modèle créé dans la partie A** (créez une copie du modèle et renommez-la `TP3-B_Rapport_Prenom_Nom.docx`).
 
 Un exemple complet d'analyse d'une entreprise se trouve ici : [Étude de cas — CGI à Québec](../modules/04-analyse-info/04-etude-cgi).
 
-Le rapport doit analyser **trois entreprises employant des informaticiens**. Vous devez **obligatoirement** analyser les entreprises que nous avons prévues visiter pour votre groupe.
+Le rapport doit analyser **trois organisations employant des informaticiens**.
 
-Vous devez inclure :
+Vous devez choisir **2 sujets parmi les 3 suivants** :
 
 - **Entreprise visitée #1**
 - **Entreprise visitée #2**
+- **[Ministère de la Cybersécurité et du Numérique](https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique)**
+
+Vous devez ensuite ajouter :
+
 - **Une entreprise de votre choix située dans la région de Québec et qui oeuvre dans un secteur d'activité différent de celui des deux entreprises précédentes**
 
-Pour connaître les entreprises qui seront visitées, consultez le calendrier de votre groupe : [groupe 1 (jeudi)](../plan-cours/calendrier-gr1.md) ou [groupe 2 (mardi)](../plan-cours/calendrier-gr2.md).
+Pour connaître les entreprises qui seront visitées ainsi que la conférence du Ministère, consultez le calendrier de votre groupe : [groupe 1 (jeudi)](../plan-cours/calendrier-gr1.md) ou [groupe 2 (mardi)](../plan-cours/calendrier-gr2.md).
 
 ---
 
@@ -226,13 +229,13 @@ Structure imposée pour votre introduction :
 
 - sujet amené (introduire le sujet sans le nommer)
 - sujet posé (présenter clairement le sujet)
-- sujet divisé (présenter la structure du développement c'est-à-dire les entreprises qui seront à l'étude plus bas dans votre travail)
+- sujet divisé (présenter la structure du développement, c'est-à-dire les organisations qui seront à l'étude plus bas dans votre travail)
 
 Guide de référence : [Structure du texte argumentatif (Alloprof)](https://www.alloprof.qc.ca/fr/eleves/bv/francais/l-introduction-du-texte-argumentatif-f1450#introduction).
 
 ---
 
-### Entreprises sélectionnées (max 1 demi page)
+### Organisations sélectionnées (max 1 demi page)
 
 Compléter le tableau créé dans votre modèle (ajouter des colonnes au besoin).
 
@@ -240,8 +243,8 @@ Référence visuelle du tableau à compléter : ![Exemple de tableau pour les en
 
 Inclure :
 
-- nom de l’entreprise (**lien cliquable** vers le site Web)
-- secteur d'activité de l'entreprise
+- nom de l'organisation (**lien cliquable** vers le site Web)
+- secteur d'activité de l'organisation
 - localisation du siège social
 - date de fondation
 
@@ -249,27 +252,27 @@ Le tableau doit avoir **une légende significative**.
 
 ---
 
-### Présentation des entreprises (environ 1 - 2 pages par entreprise)
+### Présentation des organisations (environ 1 - 2 pages par organisation)
 
-Créer une **section** pour **chaque entreprise**.
+Créer une **section** pour **chaque organisation**.
 
-Pour chaque entreprise, présentez de façon concise en **sous-sections** :
+Pour chaque organisation, présentez de façon concise en **sous-sections** :
 
-- une brève description de l’entreprise incluant sa mission, ses valeurs ainsi que le **type d'entreprise (privée, publique, OBNL)**
+- une brève description de l’organisation incluant sa mission, ses valeurs ainsi que le **type d'organisation (privée, publique, OBNL)**
 - son **domaine informatique principal** ou celui actuellement en demande
-- **un poste en informatique différent pour chaque entreprise** que l’on peut y retrouver (section carrières)
-    - quelques **tâches, responsabilités et compétences** associées au poste **dans cette entreprise**; il ne s'agit pas d'une description générale du métier
+- **un poste en informatique différent pour chaque organisation** que l’on peut y retrouver (section carrières)
+    - quelques **tâches, responsabilités et compétences** associées au poste **dans cette organisation**; il ne s'agit pas d'une description générale du métier
 
-Le poste choisi doit être différent d'une entreprise à l'autre. Vous ne pouvez pas réutiliser le même poste pour plusieurs entreprises.
+Le poste choisi doit être différent d'une organisation à l'autre. Vous ne pouvez pas réutiliser le même poste pour plusieurs organisations.
 
-Ajouter aussi pour chaque entreprise analysée :
+Ajouter aussi pour chaque organisation analysée :
 
 - le **logo**
 - une **photo du bâtiment ou des bureaux**
 
 Chaque image doit avoir **une légende**.
 
-Appuyez votre texte avec **des sources fiables et variées à l'aide de citations**. Si la section carrières de l'entreprise est vide ou peu détaillée, vous pouvez aussi déduire l'information à partir d'offres d'emploi pour des postes similaires dans des entreprises comparables, trouvées sur Indeed, LinkedIn, Glassdoor, etc.
+Appuyez votre texte avec **des sources fiables et variées à l'aide de citations**. Si la section carrières de l'organisation est vide ou peu détaillée, vous pouvez aussi déduire l'information à partir d'offres d'emploi pour des postes similaires dans des organisations comparables, trouvées sur Indeed, LinkedIn, Glassdoor, etc.
 
 
 ::: warning Attention aux sources
@@ -279,9 +282,9 @@ Il est **obligatoire** de citer vos sources en utilisant des **citations** dans 
 :::
 ---
 
-### Les entreprises en informatique à Québec (environ 1 demi page)
+### Les organisations en informatique à Québec (environ 1 demi page)
 
-Comparer les entreprises étudiées.
+Comparer les organisations étudiées.
 
 Identifier :
 
@@ -299,7 +302,7 @@ La conclusion doit :
 
 Questions pour vous guider :
 
-- Qu’avez-vous retenu de votre analyse des entreprises choisies ?
+- Qu’avez-vous retenu de votre analyse des organisations choisies ?
 - Quel type d’entreprise, de secteur d’activité ou de poste vous semble le plus intéressant, et pourquoi ?
 - En quoi cette recherche vous aide-t-elle à mieux comprendre le milieu de l’informatique au Québec ?
 
@@ -317,7 +320,7 @@ Tutoriel Word (bibliographie, citations et références) : [Microsoft Support](h
 
 ### Citations
 
-Créer **au moins deux citations** par entreprise analysée dans le document.
+Créer **au moins deux citations** par organisation analysée dans le document.
 
 Chaque citation dans le texte doit être faite en **style APA** et correspondre à une source présentée dans la bibliographie. Les sources doivent être variées (pas uniquement le site Web de l'entreprise analysée). Les [sources suivantes](../modules/04-analyse-info/01-recherche#quelles-sources-utiliser) vous seront utiles.
 

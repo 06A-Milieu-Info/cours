@@ -14,7 +14,7 @@
 | 9 | 24 mars | Profession | <Badge type="info" text="Énoncé" /> TP #3 |
 | 10 | 31 mars | Préparation des visites | |
 | — | **7 avr.** | **Pas de cours, car c'est une reprise de l'horaire du vendredi** | |
-| 11 | 14 avr. | Préparation des visites | |
+| 11 | 14 avr. | Conférence en classe : [Ministère de la Cybersécurité et du Numérique](https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique)<br>PowerPoint | |
 | 12 | 21 avr. | Visite d'entreprise #1 : Spektrum (11:00 à 14:00)<br>[spektrummedia.com](https://spektrummedia.com/)<br>[Adresse](https://maps.app.goo.gl/hmMGeVRxqQ7DBdFJA) | <Badge type="warning" text="Remise" /> TP #3 |
 | 13 | 28 avr. | Visite d'entreprise #2 : Beneva (11:00 à 14:00)<br>[beneva.ca/fr/emplois/ti](https://www.beneva.ca/fr/emplois/ti)<br>[Adresse](https://maps.app.goo.gl/6cc5e5P4Yx5XqRen8) | <Badge type="info" text="Énoncé" /> TP #4 |
 | 14 | 5 mai | Éthique | |
