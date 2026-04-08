@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as a}from"./chunks/framework.BQi7Fipq.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"travaux/tp4-ppt-ethique.md","filePath":"travaux/tp4-ppt-ethique.md"}'),p={name:"travaux/tp4-ppt-ethique.md"};function r(o,s,c,n,i,u){return e(),a("div")}const m=t(p,[["render",r]]);export{d as __pageData,m as default};
