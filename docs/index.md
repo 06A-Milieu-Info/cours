@@ -21,6 +21,74 @@ hero:
 ---
 
 
+<section id="semaine-11">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 11 — du 8 au 14 avril</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Conférence ou visite d\'entreprise',
+        description: 'Voir le calendrier pour votre groupe.',
+        links: [
+          { text: 'Calendrier — Groupe 1 (jeudi)', href: '/plan-cours/calendrier-gr1', variant: 'primary' },
+          { text: 'Calendrier — Groupe 2 (mardi)', href: '/plan-cours/calendrier-gr2', variant: 'primary' }
+        ]
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Continuer le TP3',
+        links: [{ text: 'Aller au TP3', href: '/travaux/tp3-word-profession', variant: 'secondary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+
+
+<section id="semaine-10">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 10 — du 30 mars au 7 avril</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Préparation des visites',
+        description: 'Travailler sur le TP3 en vue des visites d\'entreprise.',
+        links: [{ text: 'Aller au TP3', href: '/travaux/tp3-word-profession', variant: 'primary' }]
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Préparation des visites',
+        description: 'Avancer le TP3 et se préparer pour les visites d\'entreprise.',
+        links: [{ text: 'Aller au TP3', href: '/travaux/tp3-word-profession', variant: 'primary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+
+
 <section id="semaine-9">
 <div class="relative flex py-5 items-center mt-10">
    <div class="grow border-t border-gray-400"></div>

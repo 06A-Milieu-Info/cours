@@ -133,7 +133,7 @@ export default defineConfig({
 					{ text: "TP1 — Onedrive", link: "/travaux/tp1-collaboration" },
 					{ text: "TP2 — Excel", link: "/travaux/tp2-excel-budget" },
 					{ text: "TP3 — Word/Profession", link: "/travaux/tp3-word-profession" },
-					//{ text: "TP4", link: "/travaux/tp4-ppt-ethique" },
+					//{ text: "TP4 — PowerPoint/Éthique", link: "/travaux/tp4-ppt-ethique" },
 				],
 			},
 
@@ -153,6 +153,7 @@ export default defineConfig({
 					{ text: "Grille — TP2", link: "/grilles/grille-tp2-excel-budget" },
 					{ text: "Grille — TP3", link: "/grilles/grille-tp3-word-profession" },
 					//{ text: "Grille — TP4", link: "/grilles/grille-tp4-ppt-ethique" },
+					{ text: "Grille — Exercices, conférences et visites", link: "/grilles/grille-exercices-conferences" },
 					//{ text: "Grille — Examen 1", link: "/grilles/grille-examen1" },
 				],
 			},

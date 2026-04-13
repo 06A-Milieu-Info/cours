@@ -46,7 +46,6 @@ Votre rôle : partir d’une situation réaliste (actuelle) et explorer les enje
 
 - Utilisation d’IA générative au travail : confidentialité, qualité, traçabilité.
 - Collecte de données dans une application : consentement, minimisation, conservation.
-- Caméras et surveillance en milieu de travail : limites, justification, impacts.
 - Gestion d’une fuite de données : obligations, communication, responsabilités.
 - Logiciels piratés / licences : risques légaux et professionnels.
 - Sécurité « rapide » vs sécurité « correcte » : pression de livraison, dette technique.
