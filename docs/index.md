@@ -21,6 +21,81 @@ hero:
 ---
 
 
+<section id="semaine-13">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 13 — du 23 au 29 avril</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Conférence ou visite d\'entreprise',
+        description: 'Voir le calendrier pour votre groupe.',
+        links: [
+          { text: 'Calendrier — Groupe 1 (jeudi)', href: '/plan-cours/calendrier-gr1', variant: 'primary' },
+          { text: 'Calendrier — Groupe 2 (mardi)', href: '/plan-cours/calendrier-gr2', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Travail pratique 4',
+        description: 'Présentation de l\'énoncé du TP4 en équipe sur l\'éthique et PowerPoint.',
+        links: [{ text: 'Aller au TP4', href: '/travaux/tp4-ppt-ethique', variant: 'primary' }]
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Choisir le sujet et son équipe',
+        description: 'Compléter le fichier Excel en lien avec le choix du thème dans l\'énoncé du TP4.',
+        links: [{ text: 'Aller au TP4', href: '/travaux/tp4-ppt-ethique', variant: 'secondary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+
+<section id="semaine-12">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 12 — du 16 au 22 avril</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Conférence ou visite d\'entreprise',
+        description: 'Voir le calendrier pour votre groupe.',
+        links: [
+          { text: 'Calendrier — Groupe 1 (jeudi)', href: '/plan-cours/calendrier-gr1', variant: 'primary' },
+          { text: 'Calendrier — Groupe 2 (mardi)', href: '/plan-cours/calendrier-gr2', variant: 'primary' }
+        ]
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Travail pratique 3',
+        description: 'À compléter.',
+        links: [{ text: 'Aller au TP3', href: '/travaux/tp3-word-profession', variant: 'secondary' }]
+      }
+    ]"
+  />
+</div>
+</section>
+
 <section id="semaine-11">
 <div class="relative flex py-5 items-center mt-10">
    <div class="grow border-t border-gray-400"></div>

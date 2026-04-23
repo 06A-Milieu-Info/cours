@@ -27,8 +27,8 @@ export default defineConfig({
 					{ text: "02 — Excel", link: "/modules/02-excel/01-orientation" },
 					{ text: "03 — Word", link: "/modules/03-word/" },
 					{ text: "04 — Analyse", link: "/modules/04-analyse-info/" },
-					//{ text: "05 — PowerPoint", link: "/modules/05-powerpoint/" },
-					//{ text: "06 — Éthique", link: "/modules/06-ethique/" },
+					{ text: "05 — PowerPoint", link: "/modules/05-powerpoint/bonnes-pratiques" },
+					{ text: "06 — Éthique (TP4)", link: "/travaux/tp4-ppt-ethique" },
 				],
 			},
 			{
@@ -37,7 +37,7 @@ export default defineConfig({
 					{ text: "TP1", link: "/travaux/tp1-collaboration" },
 					{ text: "TP2", link: "/travaux/tp2-excel-budget" },
 					{ text: "TP3", link: "/travaux/tp3-word-profession" },
-					//{ text: "TP4", link: "/travaux/tp4-ppt-ethique" },
+					{ text: "TP4", link: "/travaux/tp4-ppt-ethique" },
 				],
 			}
 		],
@@ -108,20 +108,13 @@ export default defineConfig({
 							{ text: "Étude de cas : CGI", link: "/modules/04-analyse-info/04-etude-cgi" },
 						],
 					},
-					/*
 					{
 						text: "Module 5 — PowerPoint",
 						collapsed: true,
 						items: [
-						],
-					},
-					{
-						text: "Module 6 — Éthique",
-						collapsed: true,
-						items: [
+							{ text: "Bonnes pratiques", link: "/modules/05-powerpoint/bonnes-pratiques" },
 						],
 					}
-					*/
 				],
 
 			},
@@ -133,7 +126,7 @@ export default defineConfig({
 					{ text: "TP1 — Onedrive", link: "/travaux/tp1-collaboration" },
 					{ text: "TP2 — Excel", link: "/travaux/tp2-excel-budget" },
 					{ text: "TP3 — Word/Profession", link: "/travaux/tp3-word-profession" },
-					//{ text: "TP4 — PowerPoint/Éthique", link: "/travaux/tp4-ppt-ethique" },
+					{ text: "TP4 — PowerPoint/Éthique", link: "/travaux/tp4-ppt-ethique" },
 				],
 			},
 
@@ -152,7 +145,7 @@ export default defineConfig({
 					{ text: "Grille — TP1", link: "/grilles/grille-tp1-collaboration" },
 					{ text: "Grille — TP2", link: "/grilles/grille-tp2-excel-budget" },
 					{ text: "Grille — TP3", link: "/grilles/grille-tp3-word-profession" },
-					//{ text: "Grille — TP4", link: "/grilles/grille-tp4-ppt-ethique" },
+					{ text: "Grille — TP4", link: "/grilles/grille-tp4-ppt-ethique" },
 					{ text: "Grille — Exercices, conférences et visites", link: "/grilles/grille-exercices-conferences" },
 					//{ text: "Grille — Examen 1", link: "/grilles/grille-examen1" },
 				],

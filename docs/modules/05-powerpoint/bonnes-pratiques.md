@@ -1,5 +1,9 @@
 # Meilleures pratiques — PowerPoint
 
+Consultez la présentation d'exemple ci-bas pour constater les pratiques attendues.
+
+<a href="./../../module-05/exemple-powerpoint.pptx" target="_blank" rel="noopener">Présentation d'exemple</a>
+
 ## 1) Règles de base
 
 - 1 idée par diapo (un message principal clair).
