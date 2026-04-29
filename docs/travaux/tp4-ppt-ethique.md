@@ -16,7 +16,9 @@ Votre rôle : partir d’une situation réaliste (actuelle) et explorer les enje
 
 - Travail en équipe.
 - Choisir un enjeu réel (éthique / légal / professionnel) lié à l’informatique.
-- Sélection du thème (obligatoire) : [Thèmes TP4 (choix)](https://livecegepfxgqc-my.sharepoint.com/:x:/r/personal/otremblay_cegepgarneau_ca/Documents/Cours/06A%20-%20Milieu%20de%20l_info/02_Travaux/TP4/Th%C3%A8mes.xlsx?d=w17cb7edbd064459c8aec645d1eea2e25&csf=1&web=1&e=IrIdmN)
+- Sélection du thème (obligatoire) : [Thèmes TP4 (choix)](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQDbfssXZNCcRYrsZF0e6i4lAQYQRTEEYfGvb0LwHEYL9mM?e=HcWkTX)
+
+
 - Produire un diaporama PowerPoint et une présentation orale.
 
 > Important : choisissez un thème qui n’est pas déjà pris (réservé par une autre équipe).
