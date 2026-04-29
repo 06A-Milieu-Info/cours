@@ -19,7 +19,44 @@ hero:
       text: Bureau et disponibilités
       link: https://techinfo.cegepgarneau.ca/Professeurs/Horaire?id=20
 ---
-
+<section id="semaine-14">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Semaine 14 — du 30 avril au 6 mai</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'PowerPoint',
+        description: 'Bonnes pratiques à adopter',
+        links: [
+          { text: 'Bonnes pratiques', href: '/modules/05-powerpoint/bonnes-pratiques', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Travail pratique 4',
+        description: 'Complétion des équipes et travail en équipe',
+        links: [{ text: 'Aller au TP4', href: '/travaux/tp4-ppt-ethique', variant: 'primary' }]
+      }
+    ]"
+  />
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Préparer la présentation',
+        description: 'N\'oubliez pas de remettre le fichier .ppt sur Léa d\'ici votre présentation',
+        links: [{ text: 'Aller au TP4', href: '/travaux/tp4-ppt-ethique', variant: 'secondary' }]
+      }
+    ]"
+  />
+</div>
+</section>
 
 <section id="semaine-13">
 <div class="relative flex py-5 items-center mt-10">

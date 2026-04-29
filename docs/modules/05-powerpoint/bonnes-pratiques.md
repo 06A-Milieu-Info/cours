@@ -1,5 +1,15 @@
 # Meilleures pratiques — PowerPoint
 
+## Éléments de base à présenter
+
+- Créer une nouvelle présentation.
+- Renommer et enregistrer le fichier au bon endroit.
+- Ajouter, dupliquer, supprimer et réorganiser des diapositives.
+- Choisir un thème et ajuster les variantes au besoin.
+- Changer une disposition de diapositive (titre, contenu, deux colonnes, etc.).
+- Insérer une zone de texte, une image, une icône ou une forme.
+- Utiliser le mode Diaporama pour tester l'affichage final.
+
 Consultez la présentation d'exemple ci-bas pour constater les pratiques attendues.
 
 <a href="./../../module-05/exemple-powerpoint.pptx" target="_blank" rel="noopener">Présentation d'exemple</a>
@@ -11,9 +21,9 @@ Consultez la présentation d'exemple ci-bas pour constater les pratiques attendu
   - Titre : grande et lisible.
   - Texte : assez gros pour être lu au fond de la classe.
 - Contraste : texte et arrière-plan clairement distincts.
-- Cohérence visuelle : 
-  - mêmes styles de titres, 
-  - mêmes alignements, 
+- Cohérence visuelle :
+  - mêmes styles de titres,
+  - mêmes alignements,
   - mêmes repères d’une diapo à l’autre.
 
 ## 2) À éviter
