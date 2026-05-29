@@ -1,0 +1,1 @@
+import{c as e,Q as r,j as t}from"./chunks/framework.BPmZ9ESu.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"grilles/grille-examen1.md","filePath":"grilles/grille-examen1.md"}'),a={name:"grilles/grille-examen1.md"};function l(n,s,i,o,c,m){return r(),t("div")}const _=e(a,[["render",l]]);export{d as __pageData,_ as default};
