@@ -6,12 +6,7 @@ title: Fonctions de date
 
 ## Exercice associé
 
-[05 – Fonctions de date](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQD5biM3pyoiTKh1B1NGwKH9Afx4LnP_KL1jcuqNDMieI58?e=V23UDD)
-
-⚠️ Ne travaillez pas dans la version Excel du navigateur Web.
-
-**Veuillez télécharger une copie de chaque exercice.**
-- Fichier --> Créer une copie --> Télécharger une copie
+<a href="./../../module-02/05-Fonctions%20de%20dates.xlsx" target="_blank" rel="noopener">05 – Fonctions de date</a>
 
 ## Dates dans Excel
 Les dates sont des constantes numériques. On additionne 1 à tous les jours depuis le 1er janvier 1900.

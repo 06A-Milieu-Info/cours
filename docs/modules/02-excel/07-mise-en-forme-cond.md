@@ -6,12 +6,7 @@ title: Mise en forme conditionnelle
 
 ## Exercice associé
 
-[07 – Mise en forme conditionnelle et validation des données](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQD2hGLn0VRtRqPzcce-dbgrAfT0j_iYCVzTVzHl8mvgX_s?e=u2PK9n)
-
-⚠️ Ne travaillez pas dans la version Excel du navigateur Web.
-
-**Veuillez télécharger une copie de chaque exercice.**
-- Fichier --> Créer une copie --> Télécharger une copie
+<a href="./../../module-02/07-Mise%20en%20forme%20conditionnelle.xlsx" target="_blank" rel="noopener">07 – Mise en forme conditionnelle et validation des données</a>
 
 ## Objectif
 - Appliquer une mise en forme automatique selon des conditions

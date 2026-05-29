@@ -6,12 +6,7 @@ title: Orientation Excel
 
 ## Exercice associé
 
-[01 – Orientation](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQA8VRjzpG1bSoIEf7DHoo6IAS1WZLR5ma9rIWJlecyaYbs?e=HxRtew)
-
-⚠️ Ne travaillez pas dans la version Excel du navigateur Web.
-
-**Veuillez télécharger une copie de chaque exercice.**
-- Fichier --> Créer une copie --> Télécharger une copie
+<a href="./../../module-02/01-Orientation%20et%20mise%20en%20forme.xlsx" target="_blank" rel="noopener">01 – Orientation</a>
 
 
 ## Cellules

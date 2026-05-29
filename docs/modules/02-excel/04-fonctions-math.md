@@ -6,12 +6,7 @@ title: Fonctions mathématiques
 
 ## Exercice associé
 
-[04 – Fonctions mathématiques](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQD4Gs_NZuhGR7vc_dXnYvJfAUzmumXWheIxUXWgADO7W9Q?e=uJOLLH)
-
-⚠️ Ne travaillez pas dans la version Excel du navigateur Web.
-
-**Veuillez télécharger une copie de chaque exercice.**
-- Fichier --> Créer une copie --> Télécharger une copie
+<a href="./../../module-02/04-Fonctions%20math%C3%A9matiques.xlsx" target="_blank" rel="noopener">04 – Fonctions mathématiques</a>
 
 ## Syntaxe et séparateur
 Une fonction suit la structure :

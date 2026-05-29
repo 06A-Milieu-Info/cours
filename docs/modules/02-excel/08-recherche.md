@@ -6,12 +6,7 @@ title: RechercheV
 
 ## Exercice associé
 
-[08 – Recherche](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQAuQGQtIzGAQpyW-hccqJkUAUpVEuCiglNK9P1LmxkoQBE?e=0j7J5D)
-
-⚠️ Ne travaillez pas dans la version Excel du navigateur Web.
-
-**Veuillez télécharger une copie de chaque exercice.**
-- Fichier --> Créer une copie --> Télécharger une copie
+<a href="./../../module-02/08-Recherche.xlsx" target="_blank" rel="noopener">08 – Recherche</a>
 
 ## Objectif
 - Rechercher rapidement une information dans une liste ou un tableau.

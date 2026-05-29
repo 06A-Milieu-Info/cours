@@ -6,12 +6,7 @@ title: Mise en forme
 
 ## Exercice associé
 
-[02 – Mise en forme](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQD_fIO7yqPoTL2j7lADpvtxAZuDsA2uUfGBWq6x2GiTMxM?e=9m87uk)
-
-⚠️ Ne travaillez pas dans la version Excel du navigateur Web.
-
-**Veuillez télécharger une copie de chaque exercice.**
-- Fichier --> Créer une copie --> Télécharger une copie
+<a href="./../../module-02/02-Orientation%20et%20mise%20en%20forme.xlsx" target="_blank" rel="noopener">02 – Mise en forme</a>
 
 ## Bordures
 Les **bordures** servent à structurer visuellement un tableau.

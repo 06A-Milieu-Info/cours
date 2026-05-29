@@ -11,7 +11,7 @@ aside: true
 
 ## Classeur de départ à télécharger
 
-Vous devez d'abord télécharger [le classeur suivant](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQBQBmOHho4tTKAaDPEHa_8wATTxkmhu0Gxy2zeFLsfxKT4?e=rdnQhS) sur votre poste.
+Vous devez d'abord télécharger <a href="./../tps/TP2_Budget.xlsx" target="_blank" rel="noopener">le classeur suivant</a> sur votre poste.
 
 ---
 

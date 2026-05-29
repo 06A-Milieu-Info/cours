@@ -6,12 +6,7 @@ title: Tableaux croisés dynamiques
 
 ## Exercice associé
 
-[11 – Tableaux croisés dynamiques](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQDn0qZv6FmVSp3woKi1POtxAWXEnHhU7xkTgiR1J-hHdkU?e=ZKaWnL)
-
-⚠️ Ne travaillez pas dans la version Excel du navigateur Web.
-
-**Veuillez télécharger une copie de chaque exercice.**
-- Fichier --> Créer une copie --> Télécharger une copie
+<a href="./../../module-02/11-Tableaux%20crois%C3%A9s%20dynamiques.xlsx" target="_blank" rel="noopener">11 – Tableaux croisés dynamiques</a>
 
 ## Objectif
 - Créer un tableau croisé dynamique pour synthétiser rapidement de grandes quantités de données

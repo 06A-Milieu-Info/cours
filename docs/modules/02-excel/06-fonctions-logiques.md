@@ -6,12 +6,7 @@ title: Fonctions conditionnelles et logiques
 
 ## Exercice associé
 
-[06 – Fonctions conditionnelles et logiques](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQChjclFmjNkQKSWMe7c176VATPUCYlfMpdJR8XSCjnrXjM?e=oRxFus)
-
-⚠️ Ne travaillez pas dans la version Excel du navigateur Web.
-
-**Veuillez télécharger une copie de chaque exercice.**
-- Fichier --> Créer une copie --> Télécharger une copie
+<a href="./../../module-02/06-Fonctions%20conditionnelles%20et%20logiques.xlsx" target="_blank" rel="noopener">06 – Fonctions conditionnelles et logiques</a>
 
 ## Fonction SI
 Permet de prendre une décision.

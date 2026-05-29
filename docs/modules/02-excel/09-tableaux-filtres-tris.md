@@ -6,12 +6,7 @@ title: Tableaux, filtres et tris
 
 ## Exercice associé
 
-[09 – Tableaux, filtres et tris](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQBebLKkJll2Q4TKamFEqUkPAcKrPaghhxrRiaXQM2UPkuc?e=b54kdp)
-
-⚠️ Ne travaillez pas dans la version Excel du navigateur Web.
-
-**Veuillez télécharger une copie de chaque exercice.**
-- Fichier --> Créer une copie --> Télécharger une copie
+<a href="./../../module-02/09-Tableaux%20et%20tris.xlsx" target="_blank" rel="noopener">09 – Tableaux, filtres et tris</a>
 
 ## Objectif
 - Transformer une plage en **tableau Excel**.

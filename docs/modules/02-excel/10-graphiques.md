@@ -6,12 +6,7 @@ title: Graphiques
 
 ## Exercice associé
 
-[10 – Graphiques](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQDEFk8w9hsjQq_4KU2HBDmSAWaii9EZpUfgVpk-VAt2-10?e=ccHQ8S)
-
-⚠️ Ne travaillez pas dans la version Excel du navigateur Web.
-
-**Veuillez télécharger une copie de chaque exercice.**
-- Fichier --> Créer une copie --> Télécharger une copie
+<a href="./../../module-02/10-Graphiques.xlsx" target="_blank" rel="noopener">10 – Graphiques</a>
 
 ## Objectif
 - Créer des graphiques pour visualiser les données

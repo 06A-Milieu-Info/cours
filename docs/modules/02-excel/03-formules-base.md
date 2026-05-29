@@ -6,12 +6,7 @@ title: Formules de base
 
 ## Exercice associé
 
-[03 – Formules de base](https://livecegepfxgqc-my.sharepoint.com/:x:/g/personal/otremblay_cegepgarneau_ca/IQC3p9bnI29pQ4HA48_rY2DpAYJBWxDKEtJeuDLRCHHfNfc?e=ETCGdi)
-
-⚠️ Ne travaillez pas dans la version Excel du navigateur Web.
-
-**Veuillez télécharger une copie de chaque exercice.**
-- Fichier --> Créer une copie --> Télécharger une copie
+<a href="./../../module-02/03-Formules%20de%20base.xlsx" target="_blank" rel="noopener">03 – Formules de base</a>
 
 ## Calculs arithmétiques
 Une formule commence toujours par `=`.
